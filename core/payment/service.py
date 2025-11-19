@@ -37,6 +37,7 @@ def create_payment_method(payment_details):
 
 def process_payment(buyer, product, payment_method_id):
     """Process a payment for a product"""
+    payment = None  # Initialize to avoid NameError in exception handler
     try:
         # Create payment record
         payment = Payment(

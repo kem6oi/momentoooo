@@ -66,7 +66,8 @@ login_manager.login_view = 'user_login'
 
 @login_manager.user_loader
 def load_user(user_id):
-    return User.query.filter_by(username=user_id).first()
+    """Load user by ID (Flask-Login passes the value from get_id())"""
+    return User.query.filter_by(id=int(user_id)).first()
 
 # Register blueprints
 app.register_blueprint(auth_bp)
