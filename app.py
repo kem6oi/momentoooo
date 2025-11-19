@@ -28,11 +28,15 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from dotenv import load_dotenv
 import os
 import base64
+from config.security_headers import add_security_headers
 
 # Load environment variables
 load_dotenv()
 
 app = Flask(__name__)
+
+# Add security headers to all responses
+add_security_headers(app)
 
 # Configure app
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
@@ -53,7 +57,7 @@ app.config['STRIPE_SECRET_KEY'] = os.getenv('STRIPE_SECRET_KEY')
 app.config['STRIPE_WEBHOOK_SECRET'] = os.getenv('STRIPE_WEBHOOK_SECRET')
 
 # Initialize CSRF protection
-# csrf = CSRFProtect(app)  # Temporarily disabled for testing
+csrf = CSRFProtect(app)
 
 # Initialize Flask-Login
 login_manager = LoginManager()
@@ -243,4 +247,7 @@ def shutdown_session(exception=None):
     db_session.remove()
 
 if __name__ == "__main__":
-    app.run(debug=True)  
+    # Debug mode should only be enabled in development
+    # Use environment variable to control debug mode
+    debug_mode = os.getenv('FLASK_DEBUG', 'False').lower() == 'true'
+    app.run(debug=debug_mode)  
