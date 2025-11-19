@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>H4ck3r Hub - M0m3nt0</title>
+    <style>
+        body { background: #000; color: #0f0; font-family: 'Courier New', monospace; }
+        a { color: #0f0; text-decoration: none; }
+        a:hover { text-decoration: underline; animation: glitch 0.3s infinite; }
+        @keyframes glitch { 0% { transform: translate(0); } 20% { transform: translate(-2px, 2px); } 40% { transform: translate(2px, -2px); } }
+    </style>
+</head>
+<body>
+    <h1>H4ck3r Hub, {{ session['username'] }}!</h1>
+    <p>R0l3: {{ role }}</p>
+    <p>P01nts: {{ user_stats.points }}</p>
+    <h2>4ct10ns</h2>
+    {% if role == 'user' %}
+        <p><a href="{{ url_for('crypto_market') }}">Cr4pt0 M4rk3t</a></p>
+    {% elif role == 'buyer' %}
+        <p><a href="{{ url_for('buyer_products') }}">V13w Pr0ducts</a></p>
+        <p><a href="{{ url_for('buyer_post_product') }}">P0st a Pr0duct</a></p>
+    {% elif role == 'seller' %}
+        <p><a href="{{ url_for('seller_products') }}">Sall1ng Pr0ducts</a></p>
+        <p><a href="{{ url_for('seller_post_product') }}">P0st a Pr0duct</a></p>
+    {% endif %}
+    <p><a href="{{ url_for('list_challenges') }}">V13w Ch4ll3ng3s</a></p>
+    <p><a href="{{ url_for('leaderboard') }}">L34d3rb04rd</a> | <a href="{{ url_for('logout') }}">L0g0ut</a></p>
+</body>
+</html>

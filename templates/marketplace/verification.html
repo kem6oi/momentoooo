@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    <h3 class="card-title mb-0">Seller Verification</h3>
+                </div>
+                <div class="card-body">
+                    {% with messages = get_flashed_messages(with_categories=true) %}
+                        {% if messages %}
+                            {% for category, message in messages %}
+                                <div class="alert alert-{{ category }}" role="alert">
+                                    {{ message }}
+                                </div>
+                            {% endfor %}
+                        {% endif %}
+                    {% endwith %}
+
+                    <div class="alert alert-info">
+                        <h5 class="alert-heading">Verification Requirements</h5>
+                        <p>To become a verified seller and start listing products, you need to complete at least 5 hard difficulty challenges.</p>
+                    </div>
+
+                    <div class="progress mb-4">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: {{ (completed_challenges / 5) * 100 }}%;" 
+                             aria-valuenow="{{ completed_challenges }}" aria-valuemin="0" aria-valuemax="5">
+                            {{ completed_challenges }}/5 Challenges Completed
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <h5>Your Seller Profile</h5>
+                        <p><strong>Business Name:</strong> {{ seller.business_name }}</p>
+                        {% if seller.description %}
+                            <p><strong>Description:</strong> {{ seller.description }}</p>
+                        {% endif %}
+                        <p><strong>Status:</strong> 
+                            {% if seller.is_verified %}
+                                <span class="badge bg-success">Verified Seller</span>
+                            {% else %}
+                                <span class="badge bg-warning">Unverified ({{ completed_challenges }}/5 challenges)</span>
+                            {% endif %}
+                        </p>
+                    </div>
+
+                    <div class="mb-4">
+                        <h5>Available Hard Challenges</h5>
+                        {% if available_challenges %}
+                            <div class="list-group">
+                                {% for challenge_id, challenge in available_challenges.items() %}
+                                    <a href="{{ url_for('challenge', challenge_id=challenge_id) }}" class="list-group-item list-group-item-action">
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <h6 class="mb-1">{{ challenge.title }}</h6>
+                                            <small class="text-danger">Hard</small>
+                                        </div>
+                                        <p class="mb-1">{{ challenge.description[:100] }}{% if challenge.description|length > 100 %}...{% endif %}</p>
+                                    </a>
+                                {% endfor %}
+                            </div>
+                        {% else %}
+                            <div class="alert alert-warning">
+                                No hard challenges available at the moment. Please check back later.
+                            </div>
+                        {% endif %}
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <a href="{{ url_for('marketplace.index') }}" class="btn btn-outline-secondary">Back to Marketplace</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 

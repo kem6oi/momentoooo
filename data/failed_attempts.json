@@ -1,0 +1,32 @@
+[
+    {
+        "challenge_id": "1",
+        "attempt": "FLAG{Hello}",
+        "timestamp": "2025-03-18T18:59:00.443476"
+    },
+    {
+        "challenge_id": "tutorial",
+        "attempt": "['FLAG{welcome_to_ctf}']",
+        "timestamp": "2025-03-23T01:44:05.608565"
+    },
+    {
+        "challenge_id": "seller_Enoch_post",
+        "attempt": "FLAG{business_hard_access}",
+        "timestamp": "2025-03-24T09:07:26.177755"
+    },
+    {
+        "challenge_id": "tutorial",
+        "attempt": "FLAG{welcome_to_ctf}'",
+        "timestamp": "2025-03-24T10:11:52.545603"
+    },
+    {
+        "challenge_id": "seller_user_post",
+        "attempt": "            \"FLAG{product_medium_access}\"",
+        "timestamp": "2025-03-24T12:24:14.670605"
+    },
+    {
+        "challenge_id": "buyer_signup_full",
+        "attempt": "FLAG{market_medium_access}\"",
+        "timestamp": "2025-03-24T12:56:27.105907"
+    }
+]

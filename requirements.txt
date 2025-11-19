@@ -1,0 +1,16 @@
+Flask-Mail==0.9.1
+Flask-Mail>=0.9.1
+Flask>=2.3.0
+Flask-Login>=0.6.2
+Flask-SQLAlchemy>=3.0.0
+Flask-WTF>=1.1.0
+Werkzeug>=2.3.0
+SQLAlchemy>=2.0.0
+stripe>=5.0.0
+python-magic>=0.4.27
+Pillow>=10.0.0
+python-dotenv>=1.0.0
+cryptography>=41.0.0
+requests>=2.31.0
+gunicorn>=21.0.0Flask-Migrate>=4.0.7
+Flask-Migrate>=4.0.7

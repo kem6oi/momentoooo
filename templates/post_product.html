@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>P0st Pr0duct - M0m3nt0</title>
+    <style>
+        body { background: #000; color: #0f0; font-family: 'Courier New', monospace; }
+        input, textarea, button { background: #000; color: #0f0; border: 1px solid #0f0; }
+        button:hover { background: #0f0; color: #000; }
+        a { color: #0f0; text-decoration: none; }
+        a:hover { text-decoration: underline; animation: glitch 0.3s infinite; }
+        @keyframes glitch { 0% { transform: translate(0); } 20% { transform: translate(-2px, 2px); } 40% { transform: translate(2px, -2px); } }
+    </style>
+</head>
+<body>
+    <h1>P0st a Pr0duct</h1>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+                <p>{{ message }}</p>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+    <form method="post" enctype="multipart/form-data">
+        <label for="title">T1tl3:</label><br>
+        <input type="text" id="title" name="title" required><br>
+        <label for="description">D3scr1pt10n:</label><br>
+        <textarea id="description" name="description" required></textarea><br>
+        <label for="price">Pr1c3 (P01nts):</label><br>
+        <input type="number" id="price" name="price" required><br>
+        <label for="image">1m4g3:</label><br>
+        <input type="file" id="image" name="image" accept="image/*" required><br>
+        <label for="flag">Fl4g (S0lv3 Ch4ll3ng3):</label><br>
+        <input type="text" id="flag" name="flag" required><br>
+        <button type="submit">P0st Pr0duct</button>
+    </form>
+    <p><a href="{{ url_for('hub') }}">B4ck t0 Hub</a></p>
+</body>
+</html>

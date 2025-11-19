@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body text-center">
+                    <div class="mb-4">
+                        <i class="fas fa-check-circle text-success" style="font-size: 4rem;"></i>
+                    </div>
+                    <h2 class="card-title">Order Confirmed!</h2>
+                    <p class="card-text">Thank you for your purchase.</p>
+                    
+                    <div class="alert alert-success">
+                        <h5>Transaction Details</h5>
+                        <p class="mb-1">Transaction ID: {{ payment.transaction_id }}</p>
+                        <p class="mb-1">Amount: ${{ "%.2f"|format(payment.amount) }}</p>
+                        <p class="mb-1">Payment Method: {{ payment.payment_method.value|title }}</p>
+                        <p class="mb-0">Status: {{ payment.status.value|title }}</p>
+                    </div>
+
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h5 class="card-title mb-0">Product Details</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    {% if payment.product.image_filename %}
+                                    <img src="{{ url_for('marketplace.product_image', filename=payment.product.image_filename) }}" 
+                                         class="img-fluid rounded" alt="{{ payment.product.name }}">
+                                    {% else %}
+                                    <div class="bg-light d-flex align-items-center justify-content-center" 
+                                         style="height: 150px;">
+                                        <i class="fas fa-image text-muted" style="font-size: 3rem;"></i>
+                                    </div>
+                                    {% endif %}
+                                </div>
+                                <div class="col-md-8 text-start">
+                                    <h5>{{ payment.product.name }}</h5>
+                                    <p>{{ payment.product.description }}</p>
+                                    <p class="mb-0">
+                                        <small class="text-muted">Sold by: {{ payment.product.seller.business_name }}</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <a href="{{ url_for('marketplace.view_products') }}" class="btn btn-primary">Continue Shopping</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 

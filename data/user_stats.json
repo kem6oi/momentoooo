@@ -1,0 +1,77 @@
+{
+    "user": {
+        "points": 85,
+        "challenges": {
+            "tutorial": {
+                "attempts": 4,
+                "solved_flags": [
+                    "FLAG{welcome_to_ctf}"
+                ],
+                "hints_used": 0
+            },
+            "buyer_signup_full": {
+                "attempts": 3,
+                "solved_flags": [
+                    "FLAG{market_medium_access}"
+                ],
+                "hints_used": 1
+            },
+            "seller_user_signup": {
+                "attempts": 3,
+                "solved_flags": [
+                    "FLAG{business_hard_access}"
+                ],
+                "hints_used": 0
+            },
+            "seller_user_post": {
+                "attempts": 4,
+                "solved_flags": [
+                    "FLAG{product_medium_access}"
+                ],
+                "hints_used": 0
+            }
+        }
+    },
+    "E": {
+        "points": 0,
+        "challenges": {}
+    },
+    "Enoch": {
+        "points": 35,
+        "challenges": {
+            "buyer_signup_full": {
+                "attempts": 1,
+                "solved_flags": [
+                    "FLAG{market_medium_access}"
+                ],
+                "hints_used": 0
+            },
+            "seller_Enoch_signup": {
+                "attempts": 2,
+                "solved_flags": [
+                    "FLAG{business_hard_access}"
+                ],
+                "hints_used": 1
+            },
+            "seller_Enoch_post": {
+                "attempts": 2,
+                "solved_flags": [
+                    "FLAG{product_medium_access}"
+                ],
+                "hints_used": 0
+            }
+        }
+    },
+    "admin": {
+        "points": 25,
+        "challenges": {
+            "seller_admin_post": {
+                "attempts": 2,
+                "solved_flags": [
+                    "FLAG{product_medium_access}"
+                ],
+                "hints_used": 0
+            }
+        }
+    }
+}

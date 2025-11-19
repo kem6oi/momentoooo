@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <style>
+        body { font-family: 'Courier New', monospace; background-color: #330000; color: #ff3333; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; background-color: rgba(0, 0, 0, 0.8); padding: 30px; border: 1px solid #ff3333; box-shadow: 0 0 20px rgba(255, 51, 51, 0.3); }
+        h1 { text-align: center; text-shadow: 0 0 10px #ff3333; animation: flicker 1.5s infinite alternate; }
+        .table { width: 100%; border-collapse: collapse; border: 1px solid #ff3333; margin: 20px 0; }
+        th, td { padding: 12px; border-bottom: 1px solid #ff3333; text-align: center; }
+        th { background-color: #1a1a1a; text-shadow: 0 0 5px #ff3333; font-weight: 600; }
+        tr:hover { background-color: rgba(255, 51, 51, 0.1); }
+        @keyframes flicker { 0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% { opacity: 1; } 20%, 24%, 55% { opacity: 0.5; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏆 Leaderboard 🏆</h1>
+        <table class="table">
+            <tr>
+                <th>Rank</th>
+                <th>Username</th>
+                <th>Points</th>
+            </tr>
+            {% for entry in leaderboard %}
+            <tr>
+                <td>{{ loop.index }}</td>
+                <td>{{ entry.username }}</td>
+                <td>{{ entry.points }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</body>
+</html>

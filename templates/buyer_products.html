@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buy3r Pr0ducts - M0m3nt0</title>
+    <style>
+        body { background: #000; color: #0f0; font-family: 'Courier New', monospace; }
+        a, button { color: #0f0; background: none; border: 1px solid #0f0; }
+        button:hover { background: #0f0; color: #000; }
+        img { max-width: 100px; border: 1px solid #0f0; }
+    </style>
+</head>
+<body>
+    <h1>Buy3r Pr0ducts</h1>
+    <p>W3lc0m3, {{ session['username'] }}! Y0ur p01nts: {{ user_points }}</p>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+                <p>{{ message }}</p>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+    <h2>4v41l4bl3 Pr0ducts</h2>
+    {% for product in products %}
+        <div>
+            <h3>{{ product['title'] }}</h3>
+            <p>{{ product['description'] }}</p>
+            <p>Pr1c3: {{ product['price'] }} p01nts</p>
+            <img src="data:image/jpeg;base64,{{ product['image'] }}" alt="{{ product['title'] }}">
+            <p>Sall3r: {{ product['seller'] }}</p>
+            {% if role == 'buyer' %}
+                <form action="{{ url_for('buyer_buy', product_id=product['id']) }}" method="post">
+                    <button type="submit">Buy N0w</button>
+                </form>
+            {% endif %}
+        </div>
+    {% endfor %}
+    <p><a href="{{ url_for('buyer_post_product') }}">P0st a Pr0duct</a></p>
+    <p><a href="{{ url_for('hub') }}">B4ck t0 Hub</a> | <a href="{{ url_for('logout') }}">L0g0ut</a></p>
+</body>
+</html>

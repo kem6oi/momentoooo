@@ -1,0 +1,174 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-10 text-center">
+            <h1 class="display-4 mb-4">Welcome to the Marketplace</h1>
+            <p class="lead mb-4">A secure trading platform for cybersecurity enthusiasts</p>
+
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class="alert alert-{{ category }}" role="alert">
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Choose Your Path</h3>
+                    <p class="card-text">Whether you're here to trade, sell, or just practice your skills, we have something for everyone.</p>
+                    
+                    <div class="row mt-4">
+                        <div class="col-md-6 mb-4">
+                            <div class="card h-100 border-primary">
+                                <div class="card-header bg-primary text-white">
+                                    <h5 class="card-title mb-0">Buyers</h5>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Complete 3 easy challenges to access the marketplace and view products.</p>
+                                    <div class="d-grid gap-2">
+                                        {% if current_user.is_authenticated %}
+                                            <a href="{{ url_for('marketplace.buyer_verification') }}" class="btn btn-primary">Start Buyer Verification</a>
+                                        {% else %}
+                                            <a href="{{ url_for('marketplace.buyer_register') }}" class="btn btn-primary">Register as Buyer</a>
+                                            <a href="{{ url_for('user_login') }}" class="btn btn-outline-primary">Login as Buyer</a>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="card h-100 border-success">
+                                <div class="card-header bg-success text-white">
+                                    <h5 class="card-title mb-0">Sellers</h5>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Complete hard challenges to become a verified seller and list your products.</p>
+                                    <div class="d-grid gap-2">
+                                        {% if current_user.is_authenticated %}
+                                            <a href="{{ url_for('marketplace.seller_verification') }}" class="btn btn-success">Start Seller Verification</a>
+                                        {% else %}
+                                            <a href="{{ url_for('marketplace.seller_register') }}" class="btn btn-success">Register as Seller</a>
+                                            <a href="{{ url_for('user_login') }}" class="btn btn-outline-success">Login as Seller</a>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="card h-100 border-info">
+                                <div class="card-header bg-info text-white">
+                                    <h5 class="card-title mb-0">Challenge Enthusiasts</h5>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Solve challenges for fun and improve your cybersecurity skills!</p>
+                                    <div class="d-grid">
+                                        {% if current_user.is_authenticated %}
+                                            <a href="{{ url_for('list_challenges') }}" class="btn btn-info">Browse Challenges</a>
+                                        {% else %}
+                                            <a href="{{ url_for('user_login') }}" class="btn btn-info">Login to Start</a>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="card h-100 border-danger">
+                                <div class="card-header bg-danger text-white">
+                                    <h5 class="card-title mb-0">Administrators</h5>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Manage users, challenges, and maintain platform security.</p>
+                                    <div class="d-grid">
+                                        {% if current_user.is_authenticated and current_user.is_admin %}
+                                            <a href="{{ url_for('admin.admin_dashboard') }}" class="btn btn-danger">Admin Dashboard</a>
+                                        {% else %}
+                                            <button class="btn btn-secondary" disabled>Admin Access Only</button>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Platform Features</h3>
+                    <div class="row mt-4">
+                        <div class="col-md-3">
+                            <div class="mb-3">
+                                <i class="fas fa-shield-alt fa-2x mb-2"></i>
+                                <h5>Security Challenges</h5>
+                                <p>Practice with real-world security scenarios</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="mb-3">
+                                <i class="fas fa-users fa-2x mb-2"></i>
+                                <h5>Community</h5>
+                                <p>Connect with security enthusiasts</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="mb-3">
+                                <i class="fas fa-store fa-2x mb-2"></i>
+                                <h5>Marketplace</h5>
+                                <p>Trade with verified community members</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="mb-3">
+                                <i class="fas fa-graduation-cap fa-2x mb-2"></i>
+                                <h5>Learn & Grow</h5>
+                                <p>Track progress and earn achievements</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-4">
+                        <h4>Challenge Categories</h4>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="list-group">
+                                    <a href="{{ url_for('list_challenges', type='crypto') }}" class="list-group-item list-group-item-action">
+                                        <i class="fas fa-key"></i> Cryptography
+                                    </a>
+                                    <a href="{{ url_for('list_challenges', type='web') }}" class="list-group-item list-group-item-action">
+                                        <i class="fas fa-globe"></i> Web Security
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="list-group">
+                                    <a href="{{ url_for('list_challenges', type='binary') }}" class="list-group-item list-group-item-action">
+                                        <i class="fas fa-microchip"></i> Binary Exploitation
+                                    </a>
+                                    <a href="{{ url_for('list_challenges', type='forensics') }}" class="list-group-item list-group-item-action">
+                                        <i class="fas fa-search"></i> Digital Forensics
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="list-group">
+                                    <a href="{{ url_for('list_challenges', type='hash') }}" class="list-group-item list-group-item-action">
+                                        <i class="fas fa-hashtag"></i> Hash Cracking
+                                    </a>
+                                    <a href="{{ url_for('list_challenges', difficulty='easy') }}" class="list-group-item list-group-item-action">
+                                        <i class="fas fa-star"></i> Beginner Friendly
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

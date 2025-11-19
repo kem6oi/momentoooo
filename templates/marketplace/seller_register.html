@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    <h4 class="mb-0">Seller Registration</h4>
+                </div>
+                <div class="card-body">
+                    {% with messages = get_flashed_messages(with_categories=true) %}
+                        {% if messages %}
+                            {% for category, message in messages %}
+                                <div class="alert alert-{{ category }}" role="alert">
+                                    {{ message }}
+                                </div>
+                            {% endfor %}
+                        {% endif %}
+                    {% endwith %}
+
+                    <form method="POST" action="{{ url_for('marketplace.seller_register') }}">
+                        
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="username" name="username" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" name="password" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="business_name" class="form-label">Business/Store Name</label>
+                            <input type="text" class="form-control" id="business_name" name="business_name" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="description" class="form-label">Business Description</label>
+                            <textarea class="form-control" id="description" name="description" rows="3"></textarea>
+                        </div>
+
+                        <div class="alert alert-info" role="alert">
+                            <h5>Important Information:</h5>
+                            <ul class="mb-0">
+                                <li>You must verify your email before you can start selling</li>
+                                <li>All sellers must comply with our marketplace guidelines</li>
+                                <li>Commission fee of 5% applies to all sales</li>
+                            </ul>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-success">Register as Seller</button>
+                        </div>
+                    </form>
+
+                    <div class="mt-3 text-center">
+                        <p>Already registered? <a href="{{ url_for('auth.login') }}">Login here</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

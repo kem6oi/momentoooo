@@ -1,0 +1,355 @@
+{
+    "tutorial": {
+        "id": "tutorial",
+        "type": "plaintext",
+        "difficulty": "easy",
+        "description": "Welcome to Secure CTF! Submit the flag you see to earn your first points.",
+        "theme": "Tutorial",
+        "encrypted_message": [
+            "FLAG{welcome_to_ctf}"
+        ],
+        "hmac": "8ff2444bb8b5422e49ff7c207d6dba88975f7c269731a9911bfd32f41e869bd9",
+        "hints": [
+            {
+                "text": "The flag is right in front of you\u2014no decryption needed!",
+                "cost": 0
+            }
+        ],
+        "flags": [
+            "FLAG{welcome_to_ctf}"
+        ],
+        "encryption_info": {
+            "layers": [
+                []
+            ],
+            "original_messages": [
+                "FLAG{welcome_to_ctf}"
+            ]
+        },
+        "created_at": "2025-03-23T22:31:26.460374",
+        "solved_count": 0,
+        "failed_attempts": 0,
+        "num_flags": 1,
+        "tutorial": true
+    },
+    "buyer_signup_full": {
+        "id": "buyer_signup_full",
+        "type": "full",
+        "difficulty": "medium",
+        "description": "Solve this market-themed challenge to proceed!",
+        "theme": "market",
+        "encrypted_message": [
+            "\u00b9\u00f1\u001e\u00e8\u00ba\u00b7\u00ddi\u00bd\u0012zV \u009b\u0080r\u0088\f\u0007M<\u00fcs\u00f4\u0003\u00e2\u0086\u00d4\u0014\u009b\u00d2tL\u0099\u00b8\u00bc\u00de\u00a4\u000f\u00ec\u00fd\u0098\u00c9\u00bf\u000b\u0080\u00b1~e\u0085\u0001\u00fa\u00d5Mn~\u008bls\u00c3\u009b:\u00eb(DJ:\u0094\u00e3 \u00af\u00ea\u008dqPO\u00b7\u00c5!h\u008dl\u0014\u0081\u0085\u0000\r*\u0000\u00a9\u00a8]'iL\u00d2\u00d9\u0015\u00a7N&(\u00ab\u001a\u00d0p\u0083\u00b0\u00a5bKC\u00fc,t\u00ae!D\u00e2\u00a3\u0014\u0014\b\u00b8{i\u00d4\"\u0014\u00e4\u00f1?\u00a8\u0006V\u00c3N\u0012\u0097{V\u00e7C\u00e6|\u0083\u0017\u009d\u00b3a\u00b1:\u00c5D\u00c3\u00c0\u0098\u0088\u00b5\u0013\u00ffL\u00a4\u00fa2\u008b3\u001e\u0000\u00aaO\u00af\u00b2\u0094a\u00919\u0011j\u0017aZ\u00ca\u00d3l\u0012Okl\u0091\u008b \u00bb$\u0014\u0007\u00e1c\u00f27\\\u00d7\u00d8K|\u00dc\u009b\u00a3y~\u00c2\u0083\u00a6\u00ed\u00aa\u00b6\"|Q\u007f\u000f\u009fN]\u00dc\u0004}\u00adt-\u00fde\u007f\u00cb\u00a4]\u0000\u0012|\u001aQ\u00cb\u00d6\u0091\u00a1\u00b5\u00a6Oh\u00f6\u009f\u0087\u00104\u00b4\u00e8"
+        ],
+        "hmac": "7faf2f04850895baefd9a0020791963b616e12ff409b3510c7bd7cf21c52102c",
+        "hints": [
+            {
+                "text": "Caesar shift is between 1-25 (try brute force!)",
+                "cost": 0
+            },
+            {
+                "text": "AES-256 used; key is RSA-encrypted",
+                "cost": 10
+            },
+            {
+                "text": "RSA private key: -----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w... (full key on request)",
+                "cost": 20
+            }
+        ],
+        "flags": [
+            "FLAG{market_medium_access}"
+        ],
+        "encryption_info": {
+            "layers": [
+                {
+                    "type": "caesar",
+                    "shift": 18
+                }
+            ],
+            "original_messages": [
+                "FLAG{market_medium_access}"
+            ],
+            "aes_key": "MFZxcW5YQ05wY1FPLW5kTDB3TDBfNWoyZ01vUDlQVHh6NVo3X1c4Y2lwQT0=",
+            "rsa_private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDFQaNATGT/04ca\n9ULFZYKdTNJ7f5mh3Cgt/tNEQ2Xf2mFdwNuF9a9V4MPw6EIb5vkKp7zQJGi8MuQt\nIKXvpSKWJ8V3tJVGwhBfkskPfEUgENFGjIIlOyzYZp6Jooico6K7+x3dkPZAS7KW\nkfl2dTZXTQfmTzKgdeAUQPxmnEtkvNimyNU5dCO6ZsAvYE1Yfn63x5e4pw4fBDeH\nlGA26gEzDbXwuuX5NrKE9AwHXCESA1Fb/iu6tOIcE3W9zR7Yb2ja/asW+UrqrF9F\nBqVMvCUYDjQDtlx52Tm1j400r6m1uSorACOmA1n0u4j5f5mKxW2SRVd8wer7tpVr\nQXuuy04xAgMBAAECggEAUnu+dJodV76Pjc3GFH38jqM7lqnGR+EkKguXM0HNnTwX\nn9kP0qXoIgyBUsEEN9+u/u4iLZUz+JJ9SIOQ77NJUami0IoCK9rldtmN2rxXuW9e\n21XQ7BmhCIJsw9fjsUBZwaphlC9UUZF1xbGXs5mS1hGffoZagK+Zuk5sXMn5Ws9D\nALEfq5SPn1A8iWyRdGMFebwqN+8U2QhHdlT2m1F/Q0a02w+HWQvvLld5IwlX8/GR\nebVfDPNEIuUECHL2N1pQVbc8Cq5S0dTVVooWKCKnMC+Zq9l49dvr+IKpeT2aU8Do\nj9mEz9AhootGgZEjCZkkwEC9xpWiXYEL+J3DvfOiKwKBgQDklQGjsPoE/lrx0odw\neQQ6mrTV4a8oMPc55/kvQCHC9X1AjuTLPxMK8oBQZHCji81UDxJjDH5WzZ2VvFtn\n0C7Tlwha8fOhu0ujsulyIaBdmFOqer9FshDRoxlHFQqpNkKymHzk9Em5jT+Y5rTo\noGQyDyUZbR5UJ/D84QlkCQGYuwKBgQDc6rmCajQhpBTswi7d4dwjef3+/j30/yiY\nUXSmD+fAWMbGDGi8Dy/F6SnVEZIMyIa3DeLEVDuDV2FUOVWqXLfXCMPWgTEMMJmk\n9yccAje9ehtmorHx2trMA1w03ub/zaT+ioBmHfh7R4N51tAo2Wn1eGp75iPeF60g\nPimvM91MAwKBgQC6pdmC2l4teay1TZ1+f7KuT+ldxD0Man9Vb1AP/yQSV/aAoq28\nMLLR+5Y/DuTTBrMQ8oWnD2qSYq9Mt1ND/8Bc0jTmXi78Xz2yW8M3iLGz+1BGIpjQ\nxkfphm57lnjwFvh7cPx6z+brdqT5q1kJov5tyeQXUPy05zBmrTLH1nrRRQKBgQDF\nI4WF9qYsuxKdMK/H+wyKcAuUKGc7oRMl0dKpehoSUGaZR2uTHm5AS1C0Pai6VZu5\n8N9C2fP9wdUt5rgmffTkJIM2gTU2rov9ZTx2RxhcsoGPNnJa5DVJx1naKGu1LFsn\ndoscFXSu9mNCL8q0GUfv8JP9mqK5RyGMW0yxdzPs5wKBgEnqQP8ntt4+yc/ACw1n\nJfwhX5Dqy9y0ruGajxi1bshKDBt2MtCKsFJALrb6c2T8ICQvrOLIyIBa7UQNlBHD\netYyyvTgakwnnbOqy/xyBQSRYPa+IQop6HzAaH2QLdPog1NCYh4E4t4znajT7lN4\nrox/bsezKzXD7/KbG1Dr+skr\n-----END PRIVATE KEY-----\n"
+        },
+        "created_at": "2025-03-23T22:31:33.960514",
+        "solved_count": 2,
+        "failed_attempts": 0,
+        "num_flags": 1
+    },
+    "seller_user_signup": {
+        "id": "seller_user_signup",
+        "type": "full",
+        "difficulty": "hard",
+        "description": "Solve this business-themed challenge to proceed!",
+        "theme": "business",
+        "encrypted_message": [
+            "!\u00fc\u00e6u\u001a\u00fd\u00c3,\u0082+H\u008bNx\u0014\u0017Qy\r\bT\u0098\u00fbiv2u\u0004\u00e8biAj\u00cb\u00fb\u0093\u001d\u0098:\u0086\u0016\u009b\u00a9\u00bc\u0089\u00f1\u00f6\u00c6f\u008a-\u00a7V\u009b\u0088\u0016\u00cd\u00a0)\u0097V\u0091y\u00f7\u00d2\u0001\u0014~\u000b\u00ddbv\u0017\u00c9\u00acGm\u00ec\u009e{J\u008bi\u0086\u009fH\u00a3x\u00c7\u00fa6\u00c0fV\u00e3,\u008f\u00f7\u00ba6\u00c2e\u00c2\u00c7\u0015\u00c1\u00d6\u00e58\u00c7/\u00d7\u00a0\u009e\u00df9]\u00e7]7\u0097\u00fa?\u00d0\u00c7{\u00b8\u001b6V\u008f\u00c72\u0093\u00d3\u00d1\u0087\u009f\u000e\u00c47\b\u00d5\r\u0090\u00c7\u0099O\u00d9\u00acn\u00fb\u0089\u0000\u009fL\u001c\u00b2n} y3\u0083\u0018\u008bPF\u001e\t\u0097\u00e09\u00b99\u009c\u0011\u00beu*\u00bc\u008a\u001a<\u0082\u001c\u00a1\u00abJh0\u0094\u0006\\3\u00b8\u00f6\u0084\u0015\u00d8A\u00f2P\u00886VR\u000f\u0091\u001cw\u00fd,\u00f3w\u00b6\u0010\u00be\u00a7-\u0018\u008f\u0013\u0013\u00be/\u00dd\u0010\u00e1hg\u0096clz\u00c2\u0095y\u00ed\u0015W\u008a\f\u00efTu\u0016I\u007f&&\u00a6\u00a5\u0081hd"
+        ],
+        "hmac": "865f99fc847b00e18e443c88ae87116708f93cdc4496587fe083f7665fe2a6da",
+        "hints": [
+            {
+                "text": "Caesar shift is between 1-25 (try brute force!)",
+                "cost": 0
+            },
+            {
+                "text": "AES-256 used; key is RSA-encrypted",
+                "cost": 10
+            },
+            {
+                "text": "RSA private key: -----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w... (full key on request)",
+                "cost": 20
+            }
+        ],
+        "flags": [
+            "FLAG{business_hard_access}"
+        ],
+        "encryption_info": {
+            "layers": [
+                {
+                    "type": "caesar",
+                    "shift": 9
+                }
+            ],
+            "original_messages": [
+                "FLAG{business_hard_access}"
+            ],
+            "aes_key": "RXc5ZUU0cWtxckVRZ0laZHFadm8tS1NjYUg2Vi1PS01odzRGOHJiQi1GQT0=",
+            "rsa_private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC4uHPPg8AE9ITt\njWWDxdNyxTeAa5ymda+jkuvIQYaMe59t/41aP2Dq+YDigaumZ51wQUIyLNF1el/A\niPpsql57kL7NRw2ozf94nYeH8iJBxMd5QabAm8se/JVhkT5exV2B0dlK3p+rg87A\nZ1IrXL8IegfSaVVURypoh/mxiXH3WIEq1j+y2QEQIrgu6btyS+xz6ZaO1B9hZhhF\nzEdgNHFIPhNabgXsM2Tf/8Jt3Re5Pbz38wn4qEkinVL+wwg3EV9A3GgbNn0ai9nk\ni4nEa58szq4aP5k34iNHPV1SImeYfv2tjtwerNXSXsYiRkRve4j9uCFHEEWlzJRS\niyzD5P43AgMBAAECggEAAqHPi07sya/0REWbWIfVQ1GPwLrdJhAPkHdI+HcFOZ45\n/4FrMbSCfIamm/5OBFZ99foFZ/KfNMXUHx8J4R+CWM9ksJxzvjUv5TeVaqNRcqTL\nqizRzp/JrVIwYg4FmKhw9Hxu1LQcYVTE+ZU0pLKIdFCiKOY1quLtYJpDaBC1zi5E\nj1DnI36mDJlI06kD7K2opxa8mW8DK2rTEmMDGnGsWAOf/UcAYjpfuSMsQvPadKad\nGq5ExYIsp8YcCFE4F1qKWtwXsw0xxMcbZ6KpQQ4+KiGwYe6UxwH3RbjWatsdxNdc\n+iwjmGLtW74wJi+YIBDQZhKkbQZWsQJ7cAK8G+2PwQKBgQD97K88U+ZyI53gAHfe\nSK4qqIHmFb/JiY9cfo5Pl5/MkWRIXJLb+o7/Lj8BtUGqdTCqY1FaZ+twdzbmewG4\n2u0OWfF9OVhCam4aU3IScS4lpQHqIDRm2VOQXgvyOcJSU8ehszSgHFnwPDYFqklK\nTKnmB2fjBj6yK0k98NIIFz3DdwKBgQC6OvbeWDKx2r7YYRzEKa9NcjQCHqDwtIWu\nyke/jSddqTK0T4GdBPGsDbWWJkbhURluJ1Sqdqnix/mZIMSIiyqQZHzVpIkojoXH\nlmGj/v0sqz/mZMj7A8ASD1BbmVkyBNnzVqjiczeZPOoMn1oNpbyhB0x/OVgqKNFY\nKmQsTkHLQQKBgQD59QB3EVwa5Wamt69HmCIiief9F1HI0WnXMhlizi4W0NR3yvEi\nLF6RYfPR+ZxfcKbsQ4I0zXFdL21SqqmCT7flVbK7gzSXhG9H6Pa0osc7dVgSIYuT\n5sE0ru9xjVv1cNVmHqNiLSZ3rr27C+rDgf4JGycvutkCyEt79tC5+C7rdwKBgQCM\njeo6wAhq8bTubMUgTHHRmusj2mgPo7/tvx/Ns8RNTWFGc2dY0h1whNxTWcpPTj1K\nRQcCrRLlZZa9ety6TYavehg5yrf2UzMnAxnog5AjgZB13AVQZnE1cDdvGtsWBFFW\n9kX6u4jv7+iZ5D88Y6VtR6v1rZscHrh5uWznf5zqwQKBgEQW4LGDE90LnNtaGhYQ\n5HQpCPTKPLRbFFmzEDbnLK5h4mGhQV7UW4/mRiro4hdHfdHDNu65mcZRlSfhUZY8\nCeSJRHXtgGnxZSauxHl69hNSMfdhIO99J5WN/fBvAbWgVFFbLrUer5qcs9ZW23NK\nW+6WQL2ihlHRZrMolSBgOsIM\n-----END PRIVATE KEY-----\n"
+        },
+        "created_at": "2025-03-23T22:36:00.367099",
+        "solved_count": 1,
+        "failed_attempts": 0,
+        "num_flags": 1
+    },
+    "seller_Enoch_signup": {
+        "id": "seller_Enoch_signup",
+        "type": "full",
+        "difficulty": "hard",
+        "description": "Solve this business-themed challenge to proceed!",
+        "theme": "business",
+        "encrypted_message": [
+            "b\u00b5T\u00a5\u001b,\u00abH\u009e+\u00a0!q\u00fb\u00c5\u00b07\u009f\u0010hS\u0094]O\u00af\u00e9u\u00d85L\u0080\u009a\u00ab;\u00cf\u00d6\u00c7Z,\u00cd\u0003\u00be+&\u00e2\fT'\u000b82T\u00bb&\n\u0087U\u007f\u0084\u00c0,o\u00ca\u00ea\u0096\u00e3\u0019\u00d5\u00aa\u0004|*\u00e5c\u0006E\u00ca\u00dc\u0096\u00b5], \u0087m\r\".\u00ac\u0010\u00fc]\u0091$\u00fa\u00a8\u00b1J\u0083\u00c2\u0086\u001a\u00c5M\u00f9#\u00a2\u008e\u00e4-FYQ\u00be\u00b3\u00f6\bc~\u0083\u00d0\u00db\u00c9\f\u0012\u0017mk\u00e4}\u007fd\u00bd\u00efQ\u009f\u00ba\u00a7\u00bb\u00e1*\u00f9Y`\u00ea$\u0097\u0017\u00e4\r\u009a)N\u00fb\u0006\u0084\u00c4a\u00aaK\u00b8\u009eN\u00bf&\u00aa\u00e7H\u00a7\r\u0092\u00ba\u0088\u009a\b\u00ee\u00f93\u00c6\u00be\u00dd\u008c\u00ba\u00d8\u00c65BOR\u0085\u0013\u00e2T\u00fa/\u0080\u00da\u00d6\u0085\u00c6\u00cf)\u00c7\u00e2\u0087\u00c5\u00e0[5\u00197\u0087\u00f92jR\u001c\u008e\fuf\u00eaZh*\u0005\u0004n\u008cB\u00ca\u009d\u0089\u00faO\"\u00803n3\u009f\t\u0093\u009e;N\u00a2G\u00a7\u0002U\u007fm\u0004\u00c0\u00eb"
+        ],
+        "hmac": "2201a3365ecf642342c32561003680eec48b246e6593724f9fd59832b7480483",
+        "hints": [
+            {
+                "text": "Caesar shift is between 1-25 (try brute force!)",
+                "cost": 0
+            },
+            {
+                "text": "AES-256 used; key is RSA-encrypted",
+                "cost": 10
+            },
+            {
+                "text": "RSA private key: -----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w... (full key on request)",
+                "cost": 20
+            }
+        ],
+        "flags": [
+            "FLAG{business_hard_access}"
+        ],
+        "encryption_info": {
+            "layers": [
+                {
+                    "type": "caesar",
+                    "shift": 23
+                }
+            ],
+            "original_messages": [
+                "FLAG{business_hard_access}"
+            ],
+            "aes_key": "NVRsNXQ3RXpHaHlIbXdMOE9SWHM5OUtsWGo5a3hHZFBuYzBXRDYxcWlrST0=",
+            "rsa_private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDnlNLGDFMOREA/\ndu8YYOWhfWqtdLsu3IlfBzEs6exbJVDV9mhOZ/xaqdA5vEESr9ndqbdCnS2evuLX\nTYGJJvcGGaw/4ZREaeDgoL+sFL6IJ1eLCxN0aVJyM6FDnhMFnzLZu9axlNLjFUcU\ndBs+P2+d/cqy34Cju3zlhWvYVlLsnehpFR5ygI4Trvv4za1+VVdbIu7xyuF2j1Pb\neRi+k8RN2xGZGFL0qmQpEPHzYG41NaYVM6edto65B3KcC8d2zJMweOz9N+cPKrQ5\nWAErxLopVLfMJe68ZW0FXXwd9ede5KCel1kXoh2SOHeUXBWxaFcxSIex7gP07i/W\nEI3pmYDPAgMBAAECggEAEIJLhFLcmOfErMGNye8eb6TBNhxcO7r9EAkzOEB02QqP\n+LDYPr6q/sucTIFfIjXnEiZHKjiKSAbTpQWhdmWQtp6d6O/r4fSqU1kiUOIpswsa\n8o6XlHTtq7aCiI98S6pNtbfuVjqFzip2Jr8gMg/TpS+yg43rXcC/5pzcU0/UGYoF\njB1LJBSRn/UIAwr79X8ZNsWcZTj/XRaU84y6aep9O5NsckCBuogLu8dHdU004aGa\nhWOessZfnHVhsiphgl/esDzxtuS5HggVpWaTGwMai7PZswBLSRigcuRtK0VlnAFB\nMrghGFVkqwVj5saDUlyCSbdZzpP7n9F3mr20NA5cAQKBgQD7DReRg66K/zQ8GCes\naZt6UILJ6wCZCcpty24WzO+F50iWkTrnUIRliDKKDEdPzNpJvOWAALwJkxLkN/2/\nDM6rjJQ9XAoCEKybNnWW9KwmD7l4rSXaKuRC98GW2+rBaykeBrwcnaWWJRsWNfTr\nGSPiTKorfWthw0rX0WfDetHPaQKBgQDsJXqF2Aqvi1j/b2NtxFbdmLekbtLMeZgT\nGLfU3hXTHAQDfKJ2bwKVNp8a8HyBijF9Rt93CyqbyaB+MkwT/TQz6IQkBaYA5eD2\n9RBqINaFQuZZDAqx3K/71Tt0Lb0SlmzCYBzH2TFLyX7BI/gluZd9Ua3yrL2w48Ug\n/jtCciV/dwKBgQDjGgvI+bsqSARjnGI/SGV6d1xo9ipbRo0VV2JmQ8slcXyroAMN\n/ztVcahuUv8rhB+vdq6RZZi0fJQpWTE044wNiaUMALeY+KZ73f7vqLQV1kGslc1Z\nF1XX8rHwG06424ydefAvXrjNIxHmvLaq+doJO9rwbot2K6kHpInePruPiQKBgQDc\nb6vs7xwifCjK4Tbmi2YvG1UqKM2cVFFSWjuYeOvUko1ol9qsRboagc+J/T2sSs0h\nzZvia0kN/exUgS0lZ7JoVj+rxJ4OrogO3/q/pwG5ihauvx/ookKhCY6jR+L8S/Eg\njUmwgJ2UynYJY0NMK/Au6qU/KGM2kZg90TSONTGtxwKBgQCtowPZZGRXZnBmnMMa\nTvUD7Wr4agLSg8ZHiRSAFSnSv//5ITlIwk6TdKogQmuy3tThiPTbMLsp0FDXaQeI\nK0ZYgz/iqnzMkIchdGRVxqeiw0fXtH66+qELNXwp+eJhf9GF0uJXZ2vQ18LT20qc\neFrv8INr3JZ2oBSgkr2mIwNT9A==\n-----END PRIVATE KEY-----\n"
+        },
+        "created_at": "2025-03-24T08:34:15.892387",
+        "solved_count": 1,
+        "failed_attempts": 0,
+        "num_flags": 1
+    },
+    "seller_Enoch_post": {
+        "id": "seller_Enoch_post",
+        "type": "full",
+        "difficulty": "medium",
+        "description": "Solve this product-themed challenge to proceed!",
+        "theme": "product",
+        "encrypted_message": [
+            "^)\u0089\u0007y\u00f9\u00e6:\u00f91\u00cf\u0081\u008c\u00ed\u0005\u0081Oc\u00dap\u0010,l2\u0019b\u00af\u001a^\u00a5r\u00f0.\u00f3<`tA\u0091\u0004\u00d9A\u0088\u0017\u00b3\u001a|\u001d\u001c7\u00bc\u00b0\u00e2\u0081\u00c2\u00f1\u0002\u00fd\u0099`k\u000f\u0002\u00e7\u009a\u009e~(\u00c8\u001ffw\u00fb\u0004\u00a5\u00d6\u001cB\u00c4\u00a6\u00b2\u00b4\u00fb-\u0088i\u0012\u00e0\u008e\u0095\u009ao\u00f2\b\u00a3\u00e4\u00d73bJ1w}V\u0014q\u0083\u001e\u0080\u00ccX2\u009e\u0080\u0081\u0092\u00c1XbV\u00ba\u008f\u0010\u00f0\u00e0\u001c\u00a2|V\u000f\u00ca\u00f2\u00a9\u00e7r6\u00df\u00da\u00a7=\u0010\u00ac\u00cf\u00d4\u00da/\u00e9\u00f7\u0015T\u001b\u00f2r<\u00ed\u00a8a)D(WD\u00efQ\u00d3\u009e\u0019\u00d3\u00d2#\u008c\u00c89;\u009e\u008b\u00dc\u00b9j!E\u0099FB\u00b2\u00c1\u00cb\u0015\u00e9\u00cf2m$\u0089G8\u0091%\u00bd\u008c\u00d3\u00a4U\u0002\u008fS\u00a0\u0006\u00fc\u00a2[\u00edX\u00ff(\u0017\u00b5\\\u00ba\u001bS\u00c4\u0006\f\u00d2+\u0099\u00f330\u00a0p!\u00b9r7a/cH\u00b3\u00ee\u00a2\u001a\u009e\u00e6$\u00c3\u00c4\u008c\u00ed~\u00f0\u008e\r\u00a2"
+        ],
+        "hmac": "67e3babc300f75640b3978b5ce19fb47381692c586b20874c75d5b6d7513bf32",
+        "hints": [
+            {
+                "text": "Caesar shift is between 1-25 (try brute force!)",
+                "cost": 0
+            },
+            {
+                "text": "AES-256 used; key is RSA-encrypted",
+                "cost": 10
+            },
+            {
+                "text": "RSA private key: -----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w... (full key on request)",
+                "cost": 20
+            }
+        ],
+        "flags": [
+            "FLAG{product_medium_access}"
+        ],
+        "encryption_info": {
+            "layers": [
+                {
+                    "type": "caesar",
+                    "shift": 1
+                }
+            ],
+            "original_messages": [
+                "FLAG{product_medium_access}"
+            ],
+            "aes_key": "Z3pNVFlXSWxiZUZncEtxMlEwWjFPcGdtSFBrRGpTSHg1U2xJZnlEYll2az0=",
+            "rsa_private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCNz1hAr2G9idn6\nd4Lnjgl8t/+bxawcuglErSl2CgbrcKRojON5dg06eDwsbZoffxcJ9vLZizDsay2+\neAfPRzik3hU1hW4dZrIB6Ah8sNKVuiR0fHysVGoDAZ9WFxpEVHSBf0c2P+Z8aJGK\npg0iX+7MBEWJrNBonShz1QYAl4MJZ83JPgqMb5jPgCYci7/2KuS7j6OpKWzJeD49\nfQYZV1hgWHMu797RZ77YFm3+xk5Rfc/na1TkJwwRE+DxlE8GlArm1i9Ouqw+pXzf\nqQJWFk7DVd48KT06j0vxzSoLGUVUUVWUR55C98TPsIZZ3liyUU/eojVMoJxbtuNF\nNx5q9ywVAgMBAAECggEAE0KXBOoNB1Yisd7re5GR/ktrPvfhAWHPAnHWUL7Z474/\nxidkecmr0EYmPg6AwUhck7DjmOJLucBwzQ62WNOegN3c2ZEOvJWHFbUy+eR2JXnL\nm7qQoEMyxsfAoUuv+JnT3QaxYE/beQgmxEL7Q7Dt2O23mBRNlffKV7kWAJyTYoJv\n4jyHXtZW+rjgaYaL4+ETYXJsHy+lupdjX2CADpu8TtxyliivgegxkzBd0whu1tTO\nGS8Ub+FV8cFPedYurfWvHuoIdRrRwnOq3nHL9Y7ZXKD2+++UOvsW2Oio0uLwxiZQ\njHWF+D0fpJDlXJEMRvmHBP7ChjroWQFvPe5v8FD6XQKBgQDIFEDXRC8Fds1cGlm3\nNDi1DfHJpusyKQ89T1Wp2vt11nQFswVfqxn4Atz/5ew8p5n+aG0rj5XUPKHeHmCw\nDBAqc2kQkUtNDQDl1vc6BCgg5fUx+HCBnn1wOh4Y4I1mYUbgSrGT3oYWQA+NEZMy\nLRAsEPgjgI5gDGejT43jCXd+HwKBgQC1cegv/jOUuae9t1UNjGT2kqxjYbT0wn0F\nrr1knCAJO8jyvoSqCzDjEKVXGw8bjLyXMr4mmWX+4X7U6yP11QeDP6cBQZVA9WBy\nRkCRfeHmjY6WF8JG0xvX3RZMHDOVwCG0oBFaySIL7XW4Nk5nqcHuUm47ahIamsjB\n1TpkOnGnSwKBgECHj7YeDpBTlb473W2iERwL6EyiYj7mUTzz5mwG7Y0+4mKoL3aA\nh7qeqcp6zGtvntIXugYPpEI0X/x0jbiZ22jlmiA2zDOImx6F62yxxIN/x0obl6Wm\niUx14hkh61j2zNYwIP/RCCwK8zkLTw8iy5F6050XrFO8DHz2fouYFQr/AoGAa/9A\nlFBZo0xd6y4UEdxeu+TRdtXRP14DzD4VvKyw5M4Q7Ws4y32du4lM4GvasisylUw+\nofrsGqldNJ5A6THDJvvcC4NdsyxaG6p1BCRJMVFQbUX2/PDqwbF2dBbVHW0eosQj\nkEXnXfIY/2xTfqAsLg4iTnr0C6HVnImuF7oxq8ECgYA9aYb0ESmHF/wex4RJNSPm\ncmCJyK2bESJkW7/7EQCWYv97shYaVy+2FaF3ghTJVne+LUJQ0f/DyWiRzFZspOKb\ns1L4B6iTOw2Ion5VMspcoxUKZtC/hG+R1dDBUWuVZ1Oyx7NTgCyVkYZps6YGRG1c\nm51Yi0EGB58liygoXqgQ+w==\n-----END PRIVATE KEY-----\n"
+        },
+        "created_at": "2025-03-24T09:07:13.198231",
+        "solved_count": 1,
+        "failed_attempts": 1,
+        "num_flags": 1
+    },
+    "seller_admin_post": {
+        "id": "seller_admin_post",
+        "type": "full",
+        "difficulty": "medium",
+        "description": "Solve this product-themed challenge to proceed!",
+        "theme": "product",
+        "encrypted_message": [
+            "\u000f\u00ed\u00ef\u00bc>E\u00e4\u0089rz\u00f1\u00f07w\"d\u00a0d\u00a1,)\u0099\u00e1\u00d4=\u00a3\u00e1\u00f7\u00aa\u00d0E\u0017\u00f6\u008f\u00de+[\u008c\u00f8 \u009cb\u000b\u00c2{\u00ba\u00cfa\u00b2\u00d55+CV,Wt3\u00dd\u0002\u00dc4\u00a9\u00bc\u00d7F\u0018O\u00cb$\u00bc\u00a3\u00e2\u0098\u00b4MP/\u00825\u00da\u00a2\u00d3\u00ddK\u0006+\u009c\u00af\"\u0086\u00ea\u001f\u0085\u00c3\u0080\u00b6\u00f3\u000fi\u00e2`\u00f5\u00af9\u009d\u00e4\u00f2W\u00d5\u0089X\u0099\u00ba\u00b4\u00f8\u00a8\u00139]g]\u00ef\u00f60\u00bdu\u0010\u00ca\u00d4\u00af\u00dc@o\u00b3\u0002\u00dc\u00a0\u00e8\u000f\u009c\u001e\u00d4\u0091\u00dfg?!\u00d8i\u00c8\"\u007f~\u00c7\u00ad\"nGEM\u0082\u0096\u00ba\u008f\u00c5\u000e\u0081E\u00c5\u00bc\u00ad\u0088\u00b0`-Zm\u00d3M\u008e\u0013\u0012\u00ef;\\\u00b3\u008f\u00dd\u00d2\u00df[g\u007f\u0086\u00db\u00b5(0\u00bf\u00d2\u00c4\u00e6P#\u00fe^\u00ee\u00c3\u00ee\u00032n{g\u00e3\u00d7\u000f\u0096\u0007\\Y@pD\u001fX\u0096\u0082\u001e\u0010\u00fcnl\u00deA\u00d6\u0080g\u008d\u00a60Z\u00ab\u0086\u00eew\u00ee\u0095&\u00fd\u00a6U\u00da\u00a6\u0015"
+        ],
+        "hmac": "9438c16c6fdde5f0464c002aa235c494ccc884c3ce0411216491a1d8bf38aecb",
+        "hints": [
+            {
+                "text": "Caesar shift is between 1-25 (try brute force!)",
+                "cost": 0
+            },
+            {
+                "text": "AES-256 used; key is RSA-encrypted",
+                "cost": 10
+            },
+            {
+                "text": "RSA private key: -----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w... (full key on request)",
+                "cost": 20
+            }
+        ],
+        "flags": [
+            "FLAG{product_medium_access}"
+        ],
+        "encryption_info": {
+            "layers": [
+                {
+                    "type": "caesar",
+                    "shift": 14
+                }
+            ],
+            "original_messages": [
+                "FLAG{product_medium_access}"
+            ],
+            "aes_key": "Yk8zOEh2RFp0VzB5bWM4NUl0Z0x4M19FUE1FUldhWkRId1QzdlF6dGdZMD0=",
+            "rsa_private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCVeWkpnqmGZ4Qy\nKezrKAw+0LQyubV2bLqHqq4Ks0EVmLRO0+LiTH/J3FPL1TIjyDjbAZwuCbktqxFe\nf+29nj6ZprrXYJS/7q2y9chN0WAj2Rgp6du8Q+NddGSdMpZBOJ6hOvSCSLamnld7\nFeKxXFqioXCFq1gNVUaNDGeWcxD+DKqZAhtJHShnqW58Obku1XcPATyjHSuaOTR1\nxFKs5RcwGhRc7fqo+QbGAYsSOI8MegAVEivYKRShtRX6gIYN6jRK+hbZRGMMmkt7\nDy7NnHk9Niubfihzw9SSQdaLRpKHmncUAGW8C42d8r3qNl9ZfnYU1l1TP08OXjbq\nb7hA70g/AgMBAAECggEADQNMYfizpoVVj25x90j9w+w0e+QKBbzSgmQcEcdoR6KL\nM/+jVXM2ftLlIq41VsMkHADoYWOsUOr/MJxvjJ39si+/PWflm04Cpj1ailfLiGNq\nhJ+c5yd74FN1PPA9/4CX4s54oe0FpbzMPeV6Xll9dIIcgy6XFFYTtczaKdFrrco3\nb5swi832doo1AjRc4fQu1v7CurozFJvVtUtWyersRLzudiu6lXi1ZGzBlS7Vq7Qw\ncutZcABy6mBE/AIBYzX7+QdRf+IzTxnMjOe7mOXVwvVGY3jmCA16SXca72Ar6KiN\n4JdWDVNIzkmogEI92LmWSoTY0rhdpOs8e16rAQ4dIQKBgQDIueAqLPPSMcNVtJuF\n0MsjzXezYn0ppizBkL71C6VtQuQFs1W0r5Yr1e5MRGy498zK/970KbiuyHDP5FRp\nmTW9cCzwsSML+EHzq2GZYV5PsgQV8hwTtnYLz6Gk+ie4KKb7eeHwnLFwbkLcO0u5\n2cSyBiCS3TGvWmIIZROqlbW/3wKBgQC+oo3HEWo6TUpU+bhPfGnnyWsgmJgHkg79\n+5DFG9I+DeljwH3sfxUl8+eh4Jmcq07dC4R1j/plaGmzZb93MZYxILG13PF6jqzv\ny7eFpUB9AmNyh4Q/ouuj+GI2KrPIaJPA1A7E9adT4NqVeh4KB4ZM5zJgbsalrihQ\nmBusC94DoQKBgQCYfw7dO/WpVYEvld0qFuyeMLWmJUct4z/RdyR8ivKNRepyokKU\n2WlfuFIowztOc4S1HRvHqALVVxbN+oxfBbUcTSL3YbxclamVdDjcDGtYZMhR2/SU\nzWR1qLMH4b1XXhsupvSOlpz/6+UD6FCpy9Zx4dHRghcDP8mG0zPTv5WrRQKBgQCd\nQOAtHyt+jnVLpXcpclq2Tgtlpxp53D0ru9HPFsUWVUl59LarWKVsWkdv3CM6/oEe\njDqm86686iWPS9ZmD2xyeCK//1LfI0R6xpRL1WZd+JNqTWmFSPKSnvj877rADawc\nO5E3XeC6q1gER+jxowVg+LIwpBCPaRtuaBsjj+KDIQKBgQCnIFqRpk5s+oeQVNsP\nxJO2lJwRd2Feaz24uTbA/fwdqATeZMhlqkhdulgR9GxkJH6dGtjudCDbPAmoN8fC\nF5PU74DABZYEdYSE8Z7oyC+IquWzQwX22gY1T4mCdDyHrssyr8dT/C403hjHcBQx\nhBEtQL8fz/kPFjyCe0dSCGmzZQ==\n-----END PRIVATE KEY-----\n"
+        },
+        "created_at": "2025-03-24T10:08:31.287152",
+        "solved_count": 1,
+        "failed_attempts": 0,
+        "num_flags": 1
+    },
+    "seller_user_post": {
+        "id": "seller_user_post",
+        "type": "full",
+        "difficulty": "medium",
+        "description": "Solve this product-themed challenge to proceed!",
+        "theme": "product",
+        "encrypted_message": [
+            "g\u001e\u00b5\u0095\r\u00c2\f\u009b\u0091k\u00d7B\"\u001ct\u0087\u00fa\u0081\u0081\u0098\u00ce\u00ed\u0000\u00adL\u00ad\u008d\u00dck\u00dez\u00d1\u007f\u00e4T\u00c8\tj\u0088\u00f0\u0083\u0016\u00b7/\u00be\u00a0\u000e\u00d3\u00f4\u00aedJ\u00a4\u00e9\u00d0\u00faj\u00116WQl\u00bf\u000b\u00d6\f#\u00a1\u00d6=\u009e\\\u00af\u00a0Zs\u0007V\u00a4\u00ce\u00fb\u00eby+\u00b3.BQ\u00c3\u00afBlp\u00f3\u00fe)2cD\u00ea\u0003\nc\u00f0\u00837BO\u0004\u0087i\u00dd\u008c\u00d3\u00a1\u00b9\u0001G\u00cd\u00c9\u0095\u0014\u00b4\u00ee\b\u00b5j\u0084\u00e0\u0003\u001a\b\u00df\u00aeo\u00f8\u000b\u00c6^\u001d\u00f8\b\u008b\u0004\u000e\u000e)\u00bbt\u009f\u00eb\u008dF\n\u008a0\u0084_\u009e\u00d4\u00a5\u0099\u00e8\u0084\u00c7\u00d65\u0099f\u00ced8\u00c4\u001a\u00c1\u007f\u008f\u00a7\u0097\u00f2\u007f\u008e:}\u0086\u00ca\u001f\u00a1\u0004{\u0081;\u00a2Z\u0004p{\u008a\rpr\u00c7v__\u00e2~\u008d\u00e2\u00b4;\u00caj\u00c1Bd$>E\n\u00c6\u0012\u0090?\u00b3\u00df\u00be\u00b7(\u008b\u00fcA\u0095U\u0089\u00ca\u00f7s,\f\u0014\n\u00b8\u00c1\u00afo\u00d0\u0099\u00d2n\u00c3]UXh\u00f0"
+        ],
+        "hmac": "c4f59b682e7b2cc348d94d8a2882c38291266786cd6d3145c8c6611bc80bfa33",
+        "hints": [
+            {
+                "text": "Caesar shift is between 1-25 (try brute force!)",
+                "cost": 0
+            },
+            {
+                "text": "AES-256 used; key is RSA-encrypted",
+                "cost": 10
+            },
+            {
+                "text": "RSA private key: -----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w... (full key on request)",
+                "cost": 20
+            }
+        ],
+        "flags": [
+            "FLAG{product_medium_access}"
+        ],
+        "encryption_info": {
+            "layers": [
+                {
+                    "type": "caesar",
+                    "shift": 22
+                }
+            ],
+            "original_messages": [
+                "FLAG{product_medium_access}"
+            ],
+            "aes_key": "bkFvOEp4c2xPQ1A4Rl91V1FLbnQ0SzZ4S0xJd3BIMi1xM1FKOFFPQVp6UT0=",
+            "rsa_private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCq7xGMDipxhixC\nonBCl2e6NJ79DlufihoC6JCiLcJ+4zfko9MCK0xFeEF7yh2j5dGV/P8k0yQRtCQ2\nuMr62F3Tm+iIwkLgg/9GtM4xJ10TDi2tu+8BmHhxWoowXIimFlcHfWNRnfwtxzkC\nYsV98pAdS9SVaoM0fGWMhs+2o4wXhGVCKHK91dEJIy6za4CJP2ZrpoOOATQQx0MF\n3+S2bc8PbAGzcszhrKdLhWabQIHCxl5vmhTczpJWgZXLU0VfmQyAIEic6Er5qpOe\nGgv1CysPGdaVp4oZ2e45pazhvuMOuA81m38ihcSFa6JViI4Bu/ll0BMbLXS/naEg\nqsw8Y6Z9AgMBAAECggEAFNjtgfBkWs4rbcEUAfsnSn2KeoCayh10yLAGm9EK7KDX\nu0oDvTr8pWhiTC+9Z7Tq1+kwURRzTLl0xTvKfcePwfQ86xkOQQW4R65bi4Eqh91t\n0seeAcrPvbt2KSnP/LmyyZYQW+7xx7+Jg3H6dj70Nq598e84q1kUpYv3n2XY+zEW\nbx0zUYs4Lsdj6OqXxIlBJDUk2Y0HmUS3zm7kKd+fcFXihFAcaCSousWz1EttYkKf\npk+Gss8FDRjIQO3+8tKae2H71KrS1hLchO5nGWeZvNxECpuqyNrq4/zKssINZQ7l\nVWczbPBGNsPN7OF6wFt9GkFCxJqVK8GKH3h2CeDCHQKBgQDd3fVVN6q0bIHeSP26\nbK4ri+7kY1rswpAbgudXHFc82eVDkKR51P2oZECSiYNbsaU4O1W914/QnCjsb6yv\n7Z37M+2k86Vdbr97bb90QSwqLrrwl96cgbp/+OcvfjVEMyrpFkYCYEW52eBd62pj\nRx36PhsBCfOLUlF8px+bJM6qAwKBgQDFOybFS4o2M8i389hPJ8bCVm+e88HhxGOC\nwS3UIpk0FH69jZlsT7+GuG4X32okcYiaRp0GdZOSSmnp1vNb3VpfiuTN6tV41fg9\nMBmjhvIGBKiIsp/bCITGhnJ/Uy3jK3vnwRciXwl2Btr2gBuuNZCohwsIdpVsUIuo\nbg8ZUQPFfwKBgHiTpT4/950Aj3/fyU0kvW9bKGSk/ohHoQvik5mLBHpErU2P8WNo\n9sYqXdGFvIb7v6AU1x9KZJVqGO+OLZqbF82qxg9sfsWNZ7FLzs3+kWMHbH9O+iOy\neUoNWo88FvTOnhZ5DWlDKwG7QC2qwHHd95PFZuWko+Bmx3RoW0v0sABDAoGAJ34/\ntjP5Gf9miscuIjOBzjpGoZqH0TBlCLKr/ZVr/gy4kDZBaXnSjSRzDx6yf1eoldPb\n74YtpZZ2/NcI5fU9+nGyfTUvx8F4sq/mAmOsJN5b7PtvnQlopOQZGzvJrXpwliiI\n/F3xZAvdXoyqfkjFjal04R31r7m1LWXUaipZyfsCgYEAxp9Y+lKbPaBodWP5phda\nkrwLGZXHHPySF58GjHDRFo7aLi1nOtNF90Oh1tTYcXC9myNIeUauK3afBwQc2zz1\nM0Ozu/JPrixwESLP2ovkgN0YF+dHDE+/WC7ztmK1wWG0DVW0yWDBleb0MnvcNSNz\nQPZJKIXS4atzYklWnKa8bKM=\n-----END PRIVATE KEY-----\n"
+        },
+        "created_at": "2025-03-24T12:23:39.807981",
+        "solved_count": 1,
+        "failed_attempts": 1,
+        "num_flags": 1
+    },
+    "preview_1742811571.4200416": {
+        "id": "preview_1742811571.4200416",
+        "type": "vigenere",
+        "difficulty": "medium",
+        "description": "Solve this preview-themed challenge to proceed!",
+        "theme": "preview",
+        "encrypted_message": [
+            "FLAG{preview_medium_access}"
+        ],
+        "hmac": "538bfbc85a22d09a244139c958ce10ddda85fd2d6b69ca5363c442c8b751f5c1",
+        "hints": [],
+        "flags": [
+            "FLAG{preview_medium_access}"
+        ],
+        "encryption_info": {
+            "layers": [],
+            "original_messages": [
+                "FLAG{preview_medium_access}"
+            ]
+        },
+        "created_at": "2025-03-24T13:19:31.421109",
+        "solved_count": 0,
+        "failed_attempts": 0,
+        "num_flags": 1
+    },
+    "455": {
+        "id": "455",
+        "type": "vigenere",
+        "difficulty": "medium",
+        "description": "Solve this Cyberfunk-themed challenge to proceed!",
+        "theme": "Cyberfunk",
+        "encrypted_message": [
+            "FLAG{Cyberfunk_medium_access}"
+        ],
+        "hmac": "5428c577b2e5e20843e7146662b083a32910897df1443668e69c0b2d33ecf1a5",
+        "hints": [],
+        "flags": [
+            "FLAG{Cyberfunk_medium_access}"
+        ],
+        "encryption_info": {
+            "layers": [],
+            "original_messages": [
+                "FLAG{Cyberfunk_medium_access}"
+            ]
+        },
+        "created_at": "2025-03-24T13:19:36.336360",
+        "solved_count": 0,
+        "failed_attempts": 0,
+        "num_flags": 1
+    }
+}

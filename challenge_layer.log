@@ -1,0 +1,728 @@
+2025-03-09 11:32:45,166 - WARNING -  * Debugger is active!
+2025-03-09 11:32:45,174 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 11:32:48,390 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\core\\crypto\\challenge_layer.py', reloading
+2025-03-09 11:32:49,013 - WARNING -  * Debugger is active!
+2025-03-09 11:32:49,017 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 11:39:08,174 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\app.py', reloading
+2025-03-09 11:39:08,858 - WARNING -  * Debugger is active!
+2025-03-09 11:39:08,862 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 11:39:17,615 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-09 11:39:17,616 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 11:39:17,617 - INFO -  * Restarting with stat
+2025-03-09 11:39:18,161 - WARNING -  * Debugger is active!
+2025-03-09 11:39:18,165 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 11:41:19,999 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-09 11:41:19,999 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 11:41:20,001 - INFO -  * Restarting with stat
+2025-03-09 11:41:20,578 - WARNING -  * Debugger is active!
+2025-03-09 11:41:20,583 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 11:41:21,234 - INFO - 127.0.0.1 - - [09/Mar/2025 11:41:21] "[35m[1mGET /admin HTTP/1.1[0m" 500 -
+2025-03-09 11:41:21,437 - INFO - 127.0.0.1 - - [09/Mar/2025 11:41:21] "GET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-09 11:41:21,452 - INFO - 127.0.0.1 - - [09/Mar/2025 11:41:21] "GET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-09 11:41:21,541 - INFO - 127.0.0.1 - - [09/Mar/2025 11:41:21] "GET /admin?__debugger__=yes&cmd=resource&f=console.png&s=SgasBSAAdZgNmv26deWP HTTP/1.1" 200 -
+2025-03-09 11:41:21,567 - INFO - 127.0.0.1 - - [09/Mar/2025 11:41:21] "GET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-09 11:43:37,454 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\app.py', reloading
+2025-03-09 11:43:37,542 - INFO -  * Restarting with stat
+2025-03-09 11:43:38,079 - WARNING -  * Debugger is active!
+2025-03-09 11:43:38,084 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 11:43:41,632 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-09 11:43:41,632 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 11:43:41,634 - INFO -  * Restarting with stat
+2025-03-09 11:43:42,215 - WARNING -  * Debugger is active!
+2025-03-09 11:43:42,220 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 11:44:44,887 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-09 11:44:44,887 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 11:44:44,889 - INFO -  * Restarting with stat
+2025-03-09 11:44:45,444 - WARNING -  * Debugger is active!
+2025-03-09 11:44:45,448 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 11:45:20,332 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-09 11:45:20,332 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 11:45:20,334 - INFO -  * Restarting with stat
+2025-03-09 11:45:20,966 - WARNING -  * Debugger is active!
+2025-03-09 11:45:20,971 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 11:49:10,857 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-09 11:49:10,857 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 11:49:10,859 - INFO -  * Restarting with stat
+2025-03-09 11:49:11,395 - WARNING -  * Debugger is active!
+2025-03-09 11:49:11,399 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 11:49:52,228 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-09 11:49:52,228 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 11:49:52,230 - INFO -  * Restarting with stat
+2025-03-09 11:49:52,758 - WARNING -  * Debugger is active!
+2025-03-09 11:49:52,763 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 11:54:16,633 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-09 11:54:16,634 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 11:54:16,635 - INFO -  * Restarting with stat
+2025-03-09 11:54:17,234 - WARNING -  * Debugger is active!
+2025-03-09 11:54:17,239 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 11:56:14,452 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-09 11:56:14,452 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 11:56:14,454 - INFO -  * Restarting with stat
+2025-03-09 11:56:15,069 - WARNING -  * Debugger is active!
+2025-03-09 11:56:15,074 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 11:57:18,669 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-09 11:57:18,669 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 11:57:18,671 - INFO -  * Restarting with stat
+2025-03-09 11:57:19,240 - WARNING -  * Debugger is active!
+2025-03-09 11:57:19,244 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 11:58:09,942 - INFO - 127.0.0.1 - - [09/Mar/2025 11:58:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-09 11:58:11,447 - INFO - 127.0.0.1 - - [09/Mar/2025 11:58:11] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-09 11:58:11,760 - INFO - 127.0.0.1 - - [09/Mar/2025 11:58:11] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-09 11:58:11,775 - INFO - 127.0.0.1 - - [09/Mar/2025 11:58:11] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-09 11:58:11,896 - INFO - 127.0.0.1 - - [09/Mar/2025 11:58:11] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=xfY81yi7cK8oSulXSAeR HTTP/1.1" 200 -
+2025-03-09 11:58:11,923 - INFO - 127.0.0.1 - - [09/Mar/2025 11:58:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-09 12:00:50,482 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\app.py', reloading
+2025-03-09 12:00:50,577 - INFO -  * Restarting with stat
+2025-03-09 12:00:51,213 - WARNING -  * Debugger is active!
+2025-03-09 12:00:51,217 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 12:01:13,059 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-09 12:01:13,059 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 12:01:13,061 - INFO -  * Restarting with stat
+2025-03-09 12:01:13,634 - WARNING -  * Debugger is active!
+2025-03-09 12:01:13,638 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 12:01:29,929 - INFO - 127.0.0.1 - - [09/Mar/2025 12:01:29] "GET /admin HTTP/1.1" 200 -
+2025-03-09 12:01:53,906 - INFO - 127.0.0.1 - - [09/Mar/2025 12:01:53] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-09 12:02:04,903 - INFO - 127.0.0.1 - - [09/Mar/2025 12:02:04] "GET / HTTP/1.1" 200 -
+2025-03-09 12:02:09,654 - INFO - 127.0.0.1 - - [09/Mar/2025 12:02:09] "GET /register HTTP/1.1" 200 -
+2025-03-09 12:02:19,409 - INFO - 127.0.0.1 - - [09/Mar/2025 12:02:19] "POST /register HTTP/1.1" 200 -
+2025-03-09 12:02:27,585 - INFO - 127.0.0.1 - - [09/Mar/2025 12:02:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-09 12:02:27,604 - INFO - 127.0.0.1 - - [09/Mar/2025 12:02:27] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 12:02:35,968 - INFO - 127.0.0.1 - - [09/Mar/2025 12:02:35] "GET /challenge/aes_easy HTTP/1.1" 200 -
+2025-03-09 12:02:41,770 - INFO - 127.0.0.1 - - [09/Mar/2025 12:02:41] "[32mPOST /challenge/aes_easy/hint HTTP/1.1[0m" 302 -
+2025-03-09 12:02:41,786 - INFO - 127.0.0.1 - - [09/Mar/2025 12:02:41] "GET /challenge/aes_easy HTTP/1.1" 200 -
+2025-03-09 12:05:02,598 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\app.py', reloading
+2025-03-09 12:05:02,698 - INFO -  * Restarting with stat
+2025-03-09 12:05:03,334 - WARNING -  * Debugger is active!
+2025-03-09 12:05:03,339 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 12:05:19,738 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-09 12:05:19,739 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 12:05:19,740 - INFO -  * Restarting with stat
+2025-03-09 12:05:20,327 - WARNING -  * Debugger is active!
+2025-03-09 12:05:20,332 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 12:05:47,926 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\app.py', reloading
+2025-03-09 12:05:48,009 - INFO -  * Restarting with stat
+2025-03-09 12:05:48,593 - WARNING -  * Debugger is active!
+2025-03-09 12:05:48,597 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 12:05:52,526 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-09 12:05:52,526 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 12:05:52,527 - INFO -  * Restarting with stat
+2025-03-09 12:05:53,097 - WARNING -  * Debugger is active!
+2025-03-09 12:05:53,101 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 12:06:02,634 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\app.py', reloading
+2025-03-09 12:06:02,718 - INFO -  * Restarting with stat
+2025-03-09 12:06:03,392 - WARNING -  * Debugger is active!
+2025-03-09 12:06:03,397 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 12:06:11,464 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-09 12:06:11,464 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 12:06:11,465 - INFO -  * Restarting with stat
+2025-03-09 12:06:11,996 - WARNING -  * Debugger is active!
+2025-03-09 12:06:12,000 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 12:09:53,820 - INFO - 127.0.0.1 - - [09/Mar/2025 12:09:53] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-09 12:09:53,904 - INFO - 127.0.0.1 - - [09/Mar/2025 12:09:53] "GET / HTTP/1.1" 200 -
+2025-03-09 12:12:51,119 - INFO - 127.0.0.1 - - [09/Mar/2025 12:12:51] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-09 12:15:36,044 - INFO - 127.0.0.1 - - [09/Mar/2025 12:15:36] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-09 12:25:27,356 - INFO - 127.0.0.1 - - [09/Mar/2025 12:25:27] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-09 12:32:25,900 - INFO - 127.0.0.1 - - [09/Mar/2025 12:32:25] "GET /challenge/aes_easy HTTP/1.1" 200 -
+2025-03-09 12:32:27,126 - INFO - 127.0.0.1 - - [09/Mar/2025 12:32:27] "GET /challenge/aes_easy HTTP/1.1" 200 -
+2025-03-09 12:32:42,194 - INFO - 127.0.0.1 - - [09/Mar/2025 12:32:42] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-09 12:32:50,684 - INFO - 127.0.0.1 - - [09/Mar/2025 12:32:50] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 12:32:51,702 - INFO - 127.0.0.1 - - [09/Mar/2025 12:32:51] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 12:32:51,994 - INFO - 127.0.0.1 - - [09/Mar/2025 12:32:51] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 12:32:54,626 - INFO - 127.0.0.1 - - [09/Mar/2025 12:32:54] "GET /challenge/5666 HTTP/1.1" 200 -
+2025-03-09 12:32:59,142 - INFO - 127.0.0.1 - - [09/Mar/2025 12:32:59] "POST /challenge/5666 HTTP/1.1" 200 -
+2025-03-09 12:33:01,888 - INFO - 127.0.0.1 - - [09/Mar/2025 12:33:01] "GET /challenge/5666 HTTP/1.1" 200 -
+2025-03-09 12:33:03,617 - INFO - 127.0.0.1 - - [09/Mar/2025 12:33:03] "[32mPOST /challenge/5666/hint HTTP/1.1[0m" 302 -
+2025-03-09 12:33:03,627 - INFO - 127.0.0.1 - - [09/Mar/2025 12:33:03] "GET /challenge/5666 HTTP/1.1" 200 -
+2025-03-09 12:37:24,571 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\core\\challenges\\validator.py', reloading
+2025-03-09 12:37:24,671 - INFO -  * Restarting with stat
+2025-03-09 12:37:25,515 - WARNING -  * Debugger is active!
+2025-03-09 12:37:25,520 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 12:37:43,554 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\app.py', reloading
+2025-03-09 12:37:43,632 - INFO -  * Restarting with stat
+2025-03-09 12:37:44,439 - WARNING -  * Debugger is active!
+2025-03-09 12:37:44,443 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 12:46:18,438 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\core\\challenges\\challenge_manager.py', reloading
+2025-03-09 12:46:18,528 - INFO -  * Restarting with stat
+2025-03-09 12:46:19,134 - WARNING -  * Debugger is active!
+2025-03-09 12:46:19,138 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 12:46:31,136 - INFO - 127.0.0.1 - - [09/Mar/2025 12:46:31] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-09 12:46:38,131 - INFO - 127.0.0.1 - - [09/Mar/2025 12:46:38] "[33mGET /challenge/5666 HTTP/1.1[0m" 404 -
+2025-03-09 12:46:38,825 - INFO - 127.0.0.1 - - [09/Mar/2025 12:46:38] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 12:46:40,415 - INFO - 127.0.0.1 - - [09/Mar/2025 12:46:40] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 12:46:41,310 - INFO - 127.0.0.1 - - [09/Mar/2025 12:46:41] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 12:46:41,656 - INFO - 127.0.0.1 - - [09/Mar/2025 12:46:41] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 12:46:41,844 - INFO - 127.0.0.1 - - [09/Mar/2025 12:46:41] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 12:46:49,510 - INFO - 127.0.0.1 - - [09/Mar/2025 12:46:49] "GET /challenge/4 HTTP/1.1" 200 -
+2025-03-09 12:46:51,253 - INFO - 127.0.0.1 - - [09/Mar/2025 12:46:51] "[32mPOST /challenge/4/hint HTTP/1.1[0m" 302 -
+2025-03-09 12:46:51,267 - INFO - 127.0.0.1 - - [09/Mar/2025 12:46:51] "GET /challenge/4 HTTP/1.1" 200 -
+2025-03-09 12:47:16,739 - INFO - 127.0.0.1 - - [09/Mar/2025 12:47:16] "[35m[1mPOST /challenge/4 HTTP/1.1[0m" 500 -
+2025-03-09 12:47:16,927 - INFO - 127.0.0.1 - - [09/Mar/2025 12:47:16] "GET /challenge/4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-09 12:47:16,933 - INFO - 127.0.0.1 - - [09/Mar/2025 12:47:16] "GET /challenge/4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-09 12:47:16,996 - INFO - 127.0.0.1 - - [09/Mar/2025 12:47:16] "GET /challenge/4?__debugger__=yes&cmd=resource&f=console.png&s=ZNz72px1TR6BnE7HbWzc HTTP/1.1" 200 -
+2025-03-09 12:47:17,016 - INFO - 127.0.0.1 - - [09/Mar/2025 12:47:17] "GET /challenge/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-09 12:47:28,414 - INFO - 127.0.0.1 - - [09/Mar/2025 12:47:28] "[35m[1mPOST /challenge/4 HTTP/1.1[0m" 500 -
+2025-03-09 12:47:28,443 - INFO - 127.0.0.1 - - [09/Mar/2025 12:47:28] "[36mGET /challenge/4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-09 12:47:28,445 - INFO - 127.0.0.1 - - [09/Mar/2025 12:47:28] "[36mGET /challenge/4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-09 12:47:28,468 - INFO - 127.0.0.1 - - [09/Mar/2025 12:47:28] "[36mGET /challenge/4?__debugger__=yes&cmd=resource&f=console.png&s=ZNz72px1TR6BnE7HbWzc HTTP/1.1[0m" 304 -
+2025-03-09 12:47:28,495 - INFO - 127.0.0.1 - - [09/Mar/2025 12:47:28] "[36mGET /challenge/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-09 12:47:43,376 - INFO - 127.0.0.1 - - [09/Mar/2025 12:47:43] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 12:47:45,367 - INFO - 127.0.0.1 - - [09/Mar/2025 12:47:45] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 12:47:46,257 - INFO - 127.0.0.1 - - [09/Mar/2025 12:47:46] "GET /challenge/aes_easy HTTP/1.1" 200 -
+2025-03-09 12:47:49,350 - INFO - 127.0.0.1 - - [09/Mar/2025 12:47:49] "[32mPOST /challenge/aes_easy/hint HTTP/1.1[0m" 302 -
+2025-03-09 12:47:49,360 - INFO - 127.0.0.1 - - [09/Mar/2025 12:47:49] "GET /challenge/aes_easy HTTP/1.1" 200 -
+2025-03-09 12:47:55,005 - INFO - 127.0.0.1 - - [09/Mar/2025 12:47:55] "[32mPOST /challenge/aes_easy/hint HTTP/1.1[0m" 302 -
+2025-03-09 12:47:55,017 - INFO - 127.0.0.1 - - [09/Mar/2025 12:47:55] "GET /challenge/aes_easy HTTP/1.1" 200 -
+2025-03-09 12:48:07,128 - INFO - 127.0.0.1 - - [09/Mar/2025 12:48:07] "POST /challenge/aes_easy HTTP/1.1" 200 -
+2025-03-09 12:48:09,262 - INFO - 127.0.0.1 - - [09/Mar/2025 12:48:09] "GET /challenge/aes_easy HTTP/1.1" 200 -
+2025-03-09 12:48:15,073 - INFO - 127.0.0.1 - - [09/Mar/2025 12:48:15] "GET /challenge/4 HTTP/1.1" 200 -
+2025-03-09 12:48:17,118 - INFO - 127.0.0.1 - - [09/Mar/2025 12:48:17] "[32mPOST /challenge/4/hint HTTP/1.1[0m" 302 -
+2025-03-09 12:48:17,132 - INFO - 127.0.0.1 - - [09/Mar/2025 12:48:17] "GET /challenge/4 HTTP/1.1" 200 -
+2025-03-09 12:48:20,361 - INFO - 127.0.0.1 - - [09/Mar/2025 12:48:20] "[32mPOST /challenge/4/hint HTTP/1.1[0m" 302 -
+2025-03-09 12:48:20,374 - INFO - 127.0.0.1 - - [09/Mar/2025 12:48:20] "GET /challenge/4 HTTP/1.1" 200 -
+2025-03-09 13:10:44,080 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\app.py', reloading
+2025-03-09 13:10:44,159 - INFO -  * Restarting with stat
+2025-03-09 13:10:44,747 - WARNING -  * Debugger is active!
+2025-03-09 13:10:44,751 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 13:10:59,729 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\core\\challenges\\challenge_manager.py', reloading
+2025-03-09 13:10:59,800 - INFO -  * Restarting with stat
+2025-03-09 13:15:35,868 - WARNING -  * Debugger is active!
+2025-03-09 13:15:35,872 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 13:15:41,348 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\app.py', reloading
+2025-03-09 13:15:42,258 - WARNING -  * Debugger is active!
+2025-03-09 13:15:42,266 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 13:28:08,154 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\app.py', reloading
+2025-03-09 13:28:08,879 - WARNING -  * Debugger is active!
+2025-03-09 13:28:08,883 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 13:28:21,657 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\app.py', reloading
+2025-03-09 13:28:22,284 - WARNING -  * Debugger is active!
+2025-03-09 13:28:22,289 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 13:29:13,942 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\app.py', reloading
+2025-03-09 13:31:40,953 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-09 13:31:40,953 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 13:31:40,956 - INFO -  * Restarting with stat
+2025-03-09 13:31:41,539 - WARNING -  * Debugger is active!
+2025-03-09 13:31:41,543 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 13:32:15,073 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-09 13:32:15,073 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 13:32:15,075 - INFO -  * Restarting with stat
+2025-03-09 13:32:15,674 - WARNING -  * Debugger is active!
+2025-03-09 13:32:15,678 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 13:32:20,588 - INFO - 127.0.0.1 - - [09/Mar/2025 13:32:20] "GET / HTTP/1.1" 200 -
+2025-03-09 13:32:25,342 - INFO - 127.0.0.1 - - [09/Mar/2025 13:32:25] "GET /admin/login HTTP/1.1" 200 -
+2025-03-09 13:32:43,990 - INFO - 127.0.0.1 - - [09/Mar/2025 13:32:43] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2025-03-09 13:32:44,004 - INFO - 127.0.0.1 - - [09/Mar/2025 13:32:44] "GET /admin HTTP/1.1" 200 -
+2025-03-09 13:33:29,098 - INFO - 127.0.0.1 - - [09/Mar/2025 13:33:29] "GET /admin HTTP/1.1" 200 -
+2025-03-09 13:34:18,493 - INFO - 127.0.0.1 - - [09/Mar/2025 13:34:18] "GET / HTTP/1.1" 200 -
+2025-03-09 13:34:22,285 - INFO - 127.0.0.1 - - [09/Mar/2025 13:34:22] "GET /register HTTP/1.1" 200 -
+2025-03-09 13:34:33,282 - INFO - 127.0.0.1 - - [09/Mar/2025 13:34:33] "POST /register HTTP/1.1" 200 -
+2025-03-09 13:34:40,596 - INFO - 127.0.0.1 - - [09/Mar/2025 13:34:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-09 13:34:40,610 - INFO - 127.0.0.1 - - [09/Mar/2025 13:34:40] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 13:34:56,540 - INFO - 127.0.0.1 - - [09/Mar/2025 13:34:56] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-09 13:35:04,371 - INFO - 127.0.0.1 - - [09/Mar/2025 13:35:04] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 13:35:05,842 - INFO - 127.0.0.1 - - [09/Mar/2025 13:35:05] "GET /challenge/88 HTTP/1.1" 200 -
+2025-03-09 13:35:07,595 - INFO - 127.0.0.1 - - [09/Mar/2025 13:35:07] "[32mPOST /challenge/88/hint HTTP/1.1[0m" 302 -
+2025-03-09 13:35:07,604 - INFO - 127.0.0.1 - - [09/Mar/2025 13:35:07] "GET /challenge/88 HTTP/1.1" 200 -
+2025-03-09 13:35:08,647 - INFO - 127.0.0.1 - - [09/Mar/2025 13:35:08] "[32mPOST /challenge/88/hint HTTP/1.1[0m" 302 -
+2025-03-09 13:35:08,655 - INFO - 127.0.0.1 - - [09/Mar/2025 13:35:08] "GET /challenge/88 HTTP/1.1" 200 -
+2025-03-09 13:35:12,922 - INFO - 127.0.0.1 - - [09/Mar/2025 13:35:12] "[32mPOST /challenge/88/hint HTTP/1.1[0m" 302 -
+2025-03-09 13:35:12,937 - INFO - 127.0.0.1 - - [09/Mar/2025 13:35:12] "GET /challenge/88 HTTP/1.1" 200 -
+2025-03-09 13:35:29,308 - INFO - 127.0.0.1 - - [09/Mar/2025 13:35:29] "POST /challenge/88 HTTP/1.1" 200 -
+2025-03-09 13:35:32,040 - INFO - 127.0.0.1 - - [09/Mar/2025 13:35:32] "GET /challenge/88 HTTP/1.1" 200 -
+2025-03-09 13:41:26,141 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\core\\challenges\\challenge_manager.py', reloading
+2025-03-09 13:41:26,231 - INFO -  * Restarting with stat
+2025-03-09 13:41:26,819 - WARNING -  * Debugger is active!
+2025-03-09 13:41:26,824 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 13:41:48,766 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\core\\challenges\\challenge_manager.py', reloading
+2025-03-09 13:41:48,857 - INFO -  * Restarting with stat
+2025-03-09 13:46:34,034 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-09 13:46:34,035 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 13:46:34,036 - INFO -  * Restarting with stat
+2025-03-09 13:46:34,639 - WARNING -  * Debugger is active!
+2025-03-09 13:46:34,643 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 13:47:15,514 - INFO - 127.0.0.1 - - [09/Mar/2025 13:47:15] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-09 13:47:32,873 - INFO - 127.0.0.1 - - [09/Mar/2025 13:47:32] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-09 13:47:40,852 - INFO - 127.0.0.1 - - [09/Mar/2025 13:47:40] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 13:47:41,923 - INFO - 127.0.0.1 - - [09/Mar/2025 13:47:41] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 13:47:42,286 - INFO - 127.0.0.1 - - [09/Mar/2025 13:47:42] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 13:47:42,482 - INFO - 127.0.0.1 - - [09/Mar/2025 13:47:42] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 13:47:44,316 - INFO - 127.0.0.1 - - [09/Mar/2025 13:47:44] "GET /challenge/4 HTTP/1.1" 200 -
+2025-03-09 13:47:53,191 - INFO - 127.0.0.1 - - [09/Mar/2025 13:47:53] "POST /challenge/4 HTTP/1.1" 200 -
+2025-03-09 13:47:59,350 - INFO - 127.0.0.1 - - [09/Mar/2025 13:47:59] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-09 13:48:07,975 - INFO - 127.0.0.1 - - [09/Mar/2025 13:48:07] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-09 13:48:11,106 - INFO - 127.0.0.1 - - [09/Mar/2025 13:48:11] "GET /challenge/4 HTTP/1.1" 200 -
+2025-03-09 14:15:25,525 - INFO - 127.0.0.1 - - [09/Mar/2025 14:15:25] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-09 14:15:32,731 - INFO - 127.0.0.1 - - [09/Mar/2025 14:15:32] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 14:15:33,817 - INFO - 127.0.0.1 - - [09/Mar/2025 14:15:33] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 14:15:35,503 - INFO - 127.0.0.1 - - [09/Mar/2025 14:15:35] "GET /challenge/89 HTTP/1.1" 200 -
+2025-03-09 14:15:40,793 - INFO - 127.0.0.1 - - [09/Mar/2025 14:15:40] "[32mPOST /challenge/89/hint HTTP/1.1[0m" 302 -
+2025-03-09 14:15:40,810 - INFO - 127.0.0.1 - - [09/Mar/2025 14:15:40] "GET /challenge/89 HTTP/1.1" 200 -
+2025-03-09 14:15:42,155 - INFO - 127.0.0.1 - - [09/Mar/2025 14:15:42] "[32mPOST /challenge/89/hint HTTP/1.1[0m" 302 -
+2025-03-09 14:15:42,165 - INFO - 127.0.0.1 - - [09/Mar/2025 14:15:42] "GET /challenge/89 HTTP/1.1" 200 -
+2025-03-09 14:15:43,526 - INFO - 127.0.0.1 - - [09/Mar/2025 14:15:43] "[32mPOST /challenge/89/hint HTTP/1.1[0m" 302 -
+2025-03-09 14:15:43,536 - INFO - 127.0.0.1 - - [09/Mar/2025 14:15:43] "GET /challenge/89 HTTP/1.1" 200 -
+2025-03-09 14:18:47,397 - INFO - 127.0.0.1 - - [09/Mar/2025 14:18:47] "POST /challenge/89 HTTP/1.1" 200 -
+2025-03-09 14:22:31,235 - INFO - 127.0.0.1 - - [09/Mar/2025 14:22:31] "GET /challenge/89 HTTP/1.1" 200 -
+2025-03-09 14:22:41,454 - INFO - 127.0.0.1 - - [09/Mar/2025 14:22:41] "POST /challenge/89 HTTP/1.1" 200 -
+2025-03-09 14:22:43,708 - INFO - 127.0.0.1 - - [09/Mar/2025 14:22:43] "GET /challenge/89 HTTP/1.1" 200 -
+2025-03-09 14:25:54,090 - INFO - 127.0.0.1 - - [09/Mar/2025 14:25:54] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-09 14:26:20,046 - INFO - 127.0.0.1 - - [09/Mar/2025 14:26:20] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-09 14:27:05,580 - INFO - 127.0.0.1 - - [09/Mar/2025 14:27:05] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-09 14:27:24,064 - INFO - 127.0.0.1 - - [09/Mar/2025 14:27:24] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-09 14:33:16,917 - INFO - 127.0.0.1 - - [09/Mar/2025 14:33:16] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-09 14:37:47,741 - INFO - 127.0.0.1 - - [09/Mar/2025 14:37:47] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-09 14:41:39,783 - INFO - 127.0.0.1 - - [09/Mar/2025 14:41:39] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-09 14:41:58,264 - INFO - 127.0.0.1 - - [09/Mar/2025 14:41:58] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-09 14:42:10,711 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-09 14:42:10,711 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 14:42:10,713 - INFO -  * Restarting with stat
+2025-03-09 14:42:11,284 - WARNING -  * Debugger is active!
+2025-03-09 14:42:11,288 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 14:42:18,262 - INFO - 127.0.0.1 - - [09/Mar/2025 14:42:18] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-09 14:42:34,631 - INFO - 127.0.0.1 - - [09/Mar/2025 14:42:34] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-09 14:45:49,737 - INFO - 127.0.0.1 - - [09/Mar/2025 14:45:49] "[33mGET /challenge/89 HTTP/1.1[0m" 404 -
+2025-03-09 14:45:51,054 - INFO - 127.0.0.1 - - [09/Mar/2025 14:45:51] "[33mGET /challenge/89 HTTP/1.1[0m" 404 -
+2025-03-09 14:46:01,225 - INFO - 127.0.0.1 - - [09/Mar/2025 14:46:01] "GET / HTTP/1.1" 200 -
+2025-03-09 14:46:04,794 - INFO - 127.0.0.1 - - [09/Mar/2025 14:46:04] "GET /register HTTP/1.1" 200 -
+2025-03-09 14:46:13,704 - INFO - 127.0.0.1 - - [09/Mar/2025 14:46:13] "POST /register HTTP/1.1" 200 -
+2025-03-09 14:46:22,759 - INFO - 127.0.0.1 - - [09/Mar/2025 14:46:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-09 14:46:22,773 - INFO - 127.0.0.1 - - [09/Mar/2025 14:46:22] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 14:46:26,138 - INFO - 127.0.0.1 - - [09/Mar/2025 14:46:26] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 14:46:29,352 - INFO - 127.0.0.1 - - [09/Mar/2025 14:46:29] "GET /challenge/5678 HTTP/1.1" 200 -
+2025-03-09 14:47:11,866 - INFO - 127.0.0.1 - - [09/Mar/2025 14:47:11] "GET /challenge/5678 HTTP/1.1" 200 -
+2025-03-09 14:47:13,436 - INFO - 127.0.0.1 - - [09/Mar/2025 14:47:13] "GET /challenge/5678 HTTP/1.1" 200 -
+2025-03-09 14:47:13,858 - INFO - 127.0.0.1 - - [09/Mar/2025 14:47:13] "GET /challenge/5678 HTTP/1.1" 200 -
+2025-03-09 14:47:14,052 - INFO - 127.0.0.1 - - [09/Mar/2025 14:47:14] "GET /challenge/5678 HTTP/1.1" 200 -
+2025-03-09 14:47:14,229 - INFO - 127.0.0.1 - - [09/Mar/2025 14:47:14] "GET /challenge/5678 HTTP/1.1" 200 -
+2025-03-09 14:47:14,428 - INFO - 127.0.0.1 - - [09/Mar/2025 14:47:14] "GET /challenge/5678 HTTP/1.1" 200 -
+2025-03-09 14:47:14,721 - INFO - 127.0.0.1 - - [09/Mar/2025 14:47:14] "GET /challenge/5678 HTTP/1.1" 200 -
+2025-03-09 14:47:14,959 - INFO - 127.0.0.1 - - [09/Mar/2025 14:47:14] "GET /challenge/5678 HTTP/1.1" 200 -
+2025-03-09 14:49:20,006 - INFO - 127.0.0.1 - - [09/Mar/2025 14:49:20] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 14:49:23,852 - INFO - 127.0.0.1 - - [09/Mar/2025 14:49:23] "GET /challenge/aes_easy HTTP/1.1" 200 -
+2025-03-09 14:49:39,824 - INFO - 127.0.0.1 - - [09/Mar/2025 14:49:39] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 14:49:40,640 - INFO - 127.0.0.1 - - [09/Mar/2025 14:49:40] "GET /challenge/aes_easy HTTP/1.1" 200 -
+2025-03-09 14:49:56,252 - INFO - 127.0.0.1 - - [09/Mar/2025 14:49:56] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 14:49:57,169 - INFO - 127.0.0.1 - - [09/Mar/2025 14:49:57] "GET /challenge/aes_easy HTTP/1.1" 200 -
+2025-03-09 14:49:57,909 - INFO - 127.0.0.1 - - [09/Mar/2025 14:49:57] "GET /challenge/aes_easy HTTP/1.1" 200 -
+2025-03-09 14:49:58,329 - INFO - 127.0.0.1 - - [09/Mar/2025 14:49:58] "GET /challenge/aes_easy HTTP/1.1" 200 -
+2025-03-09 16:02:08,229 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-09 16:02:08,231 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-09 16:02:08,233 - INFO -  * Restarting with stat
+2025-03-09 16:02:08,859 - WARNING -  * Debugger is active!
+2025-03-09 16:02:08,868 - INFO -  * Debugger PIN: 447-593-883
+2025-03-09 16:02:15,708 - INFO - 127.0.0.1 - - [09/Mar/2025 16:02:15] "GET / HTTP/1.1" 200 -
+2025-03-09 16:02:17,620 - INFO - 127.0.0.1 - - [09/Mar/2025 16:02:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-09 16:02:22,611 - INFO - 127.0.0.1 - - [09/Mar/2025 16:02:22] "GET / HTTP/1.1" 200 -
+2025-03-09 16:02:27,921 - INFO - 127.0.0.1 - - [09/Mar/2025 16:02:27] "GET /admin/login HTTP/1.1" 200 -
+2025-03-09 16:02:42,045 - INFO - 127.0.0.1 - - [09/Mar/2025 16:02:42] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2025-03-09 16:02:42,074 - INFO - 127.0.0.1 - - [09/Mar/2025 16:02:42] "GET /admin HTTP/1.1" 200 -
+2025-03-09 16:02:53,031 - INFO - 127.0.0.1 - - [09/Mar/2025 16:02:53] "GET /register HTTP/1.1" 200 -
+2025-03-09 16:03:01,735 - INFO - 127.0.0.1 - - [09/Mar/2025 16:03:01] "POST /register HTTP/1.1" 200 -
+2025-03-09 16:03:12,669 - INFO - 127.0.0.1 - - [09/Mar/2025 16:03:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-09 16:03:12,689 - INFO - 127.0.0.1 - - [09/Mar/2025 16:03:12] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 16:03:49,893 - INFO - 127.0.0.1 - - [09/Mar/2025 16:03:49] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-09 16:03:56,360 - INFO - 127.0.0.1 - - [09/Mar/2025 16:03:56] "GET /challenges HTTP/1.1" 200 -
+2025-03-09 16:03:58,418 - INFO - 127.0.0.1 - - [09/Mar/2025 16:03:58] "GET /challenge/12 HTTP/1.1" 200 -
+2025-03-09 16:04:02,762 - INFO - 127.0.0.1 - - [09/Mar/2025 16:04:02] "[32mPOST /challenge/12/hint HTTP/1.1[0m" 302 -
+2025-03-09 16:04:02,781 - INFO - 127.0.0.1 - - [09/Mar/2025 16:04:02] "GET /challenge/12 HTTP/1.1" 200 -
+2025-03-09 16:04:03,928 - INFO - 127.0.0.1 - - [09/Mar/2025 16:04:03] "[32mPOST /challenge/12/hint HTTP/1.1[0m" 302 -
+2025-03-09 16:04:03,951 - INFO - 127.0.0.1 - - [09/Mar/2025 16:04:03] "GET /challenge/12 HTTP/1.1" 200 -
+2025-03-09 16:04:05,201 - INFO - 127.0.0.1 - - [09/Mar/2025 16:04:05] "[32mPOST /challenge/12/hint HTTP/1.1[0m" 302 -
+2025-03-09 16:04:05,220 - INFO - 127.0.0.1 - - [09/Mar/2025 16:04:05] "GET /challenge/12 HTTP/1.1" 200 -
+2025-03-10 08:46:15,374 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 08:46:15,375 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 08:46:15,377 - INFO -  * Restarting with stat
+2025-03-10 08:46:16,089 - WARNING -  * Debugger is active!
+2025-03-10 08:46:16,095 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 08:46:25,261 - INFO - 127.0.0.1 - - [10/Mar/2025 08:46:25] "GET / HTTP/1.1" 200 -
+2025-03-10 08:46:27,418 - INFO - 127.0.0.1 - - [10/Mar/2025 08:46:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-10 08:46:31,060 - INFO - 127.0.0.1 - - [10/Mar/2025 08:46:31] "GET / HTTP/1.1" 200 -
+2025-03-10 08:46:37,315 - INFO - 127.0.0.1 - - [10/Mar/2025 08:46:37] "GET /register HTTP/1.1" 200 -
+2025-03-10 08:46:47,147 - INFO - 127.0.0.1 - - [10/Mar/2025 08:46:47] "POST /register HTTP/1.1" 200 -
+2025-03-10 08:46:58,165 - INFO - 127.0.0.1 - - [10/Mar/2025 08:46:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-10 08:46:58,188 - INFO - 127.0.0.1 - - [10/Mar/2025 08:46:58] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 08:47:18,203 - INFO - 127.0.0.1 - - [10/Mar/2025 08:47:18] "GET /admin/login HTTP/1.1" 200 -
+2025-03-10 08:47:35,560 - INFO - 127.0.0.1 - - [10/Mar/2025 08:47:35] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2025-03-10 08:47:35,584 - INFO - 127.0.0.1 - - [10/Mar/2025 08:47:35] "GET /admin HTTP/1.1" 200 -
+2025-03-10 08:51:24,421 - INFO - 127.0.0.1 - - [10/Mar/2025 08:51:24] "GET /admin HTTP/1.1" 200 -
+2025-03-10 08:52:32,135 - INFO - 127.0.0.1 - - [10/Mar/2025 08:52:32] "GET /challenge/rsa_hard HTTP/1.1" 200 -
+2025-03-10 08:52:41,523 - INFO - 127.0.0.1 - - [10/Mar/2025 08:52:41] "GET /challenge/aes_easy HTTP/1.1" 200 -
+2025-03-10 08:58:49,714 - INFO - 127.0.0.1 - - [10/Mar/2025 08:58:49] "[32mPOST /challenge/aes_easy/hint HTTP/1.1[0m" 302 -
+2025-03-10 08:58:49,725 - INFO - 127.0.0.1 - - [10/Mar/2025 08:58:49] "GET /challenge/aes_easy HTTP/1.1" 200 -
+2025-03-10 08:58:50,646 - INFO - 127.0.0.1 - - [10/Mar/2025 08:58:50] "[32mPOST /challenge/aes_easy/hint HTTP/1.1[0m" 302 -
+2025-03-10 08:58:50,658 - INFO - 127.0.0.1 - - [10/Mar/2025 08:58:50] "GET /challenge/aes_easy HTTP/1.1" 200 -
+2025-03-10 08:58:51,114 - INFO - 127.0.0.1 - - [10/Mar/2025 08:58:51] "[32mPOST /challenge/aes_easy/hint HTTP/1.1[0m" 302 -
+2025-03-10 08:58:51,129 - INFO - 127.0.0.1 - - [10/Mar/2025 08:58:51] "GET /challenge/aes_easy HTTP/1.1" 200 -
+2025-03-10 09:12:52,229 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\core\\challenges\\challenge_manager.py', reloading
+2025-03-10 09:12:52,447 - INFO -  * Restarting with stat
+2025-03-10 09:59:32,905 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 09:59:32,906 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 09:59:32,909 - INFO -  * Restarting with stat
+2025-03-10 09:59:33,507 - WARNING -  * Debugger is active!
+2025-03-10 09:59:33,515 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 09:59:49,428 - INFO - 127.0.0.1 - - [10/Mar/2025 09:59:49] "[35m[1mGET /challenges HTTP/1.1[0m" 500 -
+2025-03-10 09:59:50,077 - INFO - 127.0.0.1 - - [10/Mar/2025 09:59:50] "GET /challenges?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-10 09:59:50,093 - INFO - 127.0.0.1 - - [10/Mar/2025 09:59:50] "GET /challenges?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-10 09:59:50,181 - INFO - 127.0.0.1 - - [10/Mar/2025 09:59:50] "GET /challenges?__debugger__=yes&cmd=resource&f=console.png&s=03SqNB2qz4bSAE2gtyRB HTTP/1.1" 200 -
+2025-03-10 09:59:50,206 - INFO - 127.0.0.1 - - [10/Mar/2025 09:59:50] "GET /challenges?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-10 09:59:52,934 - INFO - 127.0.0.1 - - [10/Mar/2025 09:59:52] "GET /admin HTTP/1.1" 200 -
+2025-03-10 09:59:54,097 - INFO - 127.0.0.1 - - [10/Mar/2025 09:59:54] "GET /admin HTTP/1.1" 200 -
+2025-03-10 09:59:54,851 - INFO - 127.0.0.1 - - [10/Mar/2025 09:59:54] "GET /admin HTTP/1.1" 200 -
+2025-03-10 10:00:07,267 - INFO - 127.0.0.1 - - [10/Mar/2025 10:00:07] "GET / HTTP/1.1" 200 -
+2025-03-10 10:00:11,678 - INFO - 127.0.0.1 - - [10/Mar/2025 10:00:11] "GET /login HTTP/1.1" 200 -
+2025-03-10 10:00:15,124 - INFO - 127.0.0.1 - - [10/Mar/2025 10:00:15] "GET /register HTTP/1.1" 200 -
+2025-03-10 10:00:22,673 - INFO - 127.0.0.1 - - [10/Mar/2025 10:00:22] "POST /register HTTP/1.1" 200 -
+2025-03-10 10:00:30,406 - INFO - 127.0.0.1 - - [10/Mar/2025 10:00:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-10 10:00:30,463 - INFO - 127.0.0.1 - - [10/Mar/2025 10:00:30] "[35m[1mGET /challenges HTTP/1.1[0m" 500 -
+2025-03-10 10:00:30,492 - INFO - 127.0.0.1 - - [10/Mar/2025 10:00:30] "[36mGET /challenges?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-10 10:00:30,499 - INFO - 127.0.0.1 - - [10/Mar/2025 10:00:30] "[36mGET /challenges?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-10 10:00:30,564 - INFO - 127.0.0.1 - - [10/Mar/2025 10:00:30] "[36mGET /challenges?__debugger__=yes&cmd=resource&f=console.png&s=03SqNB2qz4bSAE2gtyRB HTTP/1.1[0m" 304 -
+2025-03-10 10:00:50,798 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 10:00:50,798 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 10:00:50,799 - INFO -  * Restarting with stat
+2025-03-10 10:00:51,366 - WARNING -  * Debugger is active!
+2025-03-10 10:00:51,370 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 10:21:38,601 - INFO - 127.0.0.1 - - [10/Mar/2025 10:21:38] "[35m[1mGET /challenges HTTP/1.1[0m" 500 -
+2025-03-10 10:21:38,837 - INFO - 127.0.0.1 - - [10/Mar/2025 10:21:38] "[36mGET /challenges?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-10 10:21:38,846 - INFO - 127.0.0.1 - - [10/Mar/2025 10:21:38] "[36mGET /challenges?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-10 10:21:38,868 - INFO - 127.0.0.1 - - [10/Mar/2025 10:21:38] "GET /challenges?__debugger__=yes&cmd=resource&f=console.png&s=m0NV3pTBeCp02pt4IHQU HTTP/1.1" 200 -
+2025-03-10 10:21:38,886 - INFO - 127.0.0.1 - - [10/Mar/2025 10:21:38] "[36mGET /challenges?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-10 10:26:57,089 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\core\\challenges\\challenge_manager.py', reloading
+2025-03-10 10:26:57,232 - INFO -  * Restarting with stat
+2025-03-10 10:27:24,555 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 10:27:24,555 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 10:27:24,557 - INFO -  * Restarting with stat
+2025-03-10 10:27:25,211 - WARNING -  * Debugger is active!
+2025-03-10 10:27:25,219 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 10:27:26,472 - INFO - 127.0.0.1 - - [10/Mar/2025 10:27:26] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 10:27:36,636 - INFO - 127.0.0.1 - - [10/Mar/2025 10:27:36] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 10:27:43,072 - INFO - 127.0.0.1 - - [10/Mar/2025 10:27:43] "GET / HTTP/1.1" 200 -
+2025-03-10 10:27:46,777 - INFO - 127.0.0.1 - - [10/Mar/2025 10:27:46] "GET /admin/login HTTP/1.1" 200 -
+2025-03-10 10:28:01,896 - INFO - 127.0.0.1 - - [10/Mar/2025 10:28:01] "POST /admin/login HTTP/1.1" 200 -
+2025-03-10 10:28:15,275 - INFO - 127.0.0.1 - - [10/Mar/2025 10:28:15] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2025-03-10 10:28:15,290 - INFO - 127.0.0.1 - - [10/Mar/2025 10:28:15] "GET /admin HTTP/1.1" 200 -
+2025-03-10 10:28:40,219 - INFO - 127.0.0.1 - - [10/Mar/2025 10:28:40] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-10 10:28:48,614 - INFO - 127.0.0.1 - - [10/Mar/2025 10:28:48] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 10:28:50,415 - INFO - 127.0.0.1 - - [10/Mar/2025 10:28:50] "GET /challenge/677 HTTP/1.1" 200 -
+2025-03-10 10:44:39,158 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\core\\challenges\\challenge_manager.py', reloading
+2025-03-10 10:44:39,249 - INFO -  * Restarting with stat
+2025-03-10 11:05:56,008 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 11:05:56,008 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 11:05:56,010 - INFO -  * Restarting with stat
+2025-03-10 11:05:56,524 - WARNING -  * Debugger is active!
+2025-03-10 11:05:56,531 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 11:06:02,823 - INFO - 127.0.0.1 - - [10/Mar/2025 11:06:02] "[35m[1mGET /challenges HTTP/1.1[0m" 500 -
+2025-03-10 11:06:03,087 - INFO - 127.0.0.1 - - [10/Mar/2025 11:06:03] "[36mGET /challenges?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-10 11:06:03,102 - INFO - 127.0.0.1 - - [10/Mar/2025 11:06:03] "[36mGET /challenges?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-10 11:06:03,181 - INFO - 127.0.0.1 - - [10/Mar/2025 11:06:03] "GET /challenges?__debugger__=yes&cmd=resource&f=console.png&s=3Mwg2x4CI7tRLZuMvmLf HTTP/1.1" 200 -
+2025-03-10 11:06:03,204 - INFO - 127.0.0.1 - - [10/Mar/2025 11:06:03] "[36mGET /challenges?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-10 11:06:15,024 - INFO - 127.0.0.1 - - [10/Mar/2025 11:06:15] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-10 11:06:19,108 - INFO - 127.0.0.1 - - [10/Mar/2025 11:06:19] "GET / HTTP/1.1" 200 -
+2025-03-10 11:06:25,466 - INFO - 127.0.0.1 - - [10/Mar/2025 11:06:25] "GET /admin/login HTTP/1.1" 200 -
+2025-03-10 11:06:39,641 - INFO - 127.0.0.1 - - [10/Mar/2025 11:06:39] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2025-03-10 11:06:39,650 - INFO - 127.0.0.1 - - [10/Mar/2025 11:06:39] "GET /admin HTTP/1.1" 200 -
+2025-03-10 11:06:51,386 - INFO - 127.0.0.1 - - [10/Mar/2025 11:06:51] "GET /register HTTP/1.1" 200 -
+2025-03-10 11:07:02,904 - INFO - 127.0.0.1 - - [10/Mar/2025 11:07:02] "POST /register HTTP/1.1" 200 -
+2025-03-10 11:07:11,073 - INFO - 127.0.0.1 - - [10/Mar/2025 11:07:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-10 11:07:11,118 - INFO - 127.0.0.1 - - [10/Mar/2025 11:07:11] "[35m[1mGET /challenges HTTP/1.1[0m" 500 -
+2025-03-10 11:07:11,141 - INFO - 127.0.0.1 - - [10/Mar/2025 11:07:11] "[36mGET /challenges?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-10 11:07:11,147 - INFO - 127.0.0.1 - - [10/Mar/2025 11:07:11] "[36mGET /challenges?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-10 11:07:11,201 - INFO - 127.0.0.1 - - [10/Mar/2025 11:07:11] "[36mGET /challenges?__debugger__=yes&cmd=resource&f=console.png&s=3Mwg2x4CI7tRLZuMvmLf HTTP/1.1[0m" 304 -
+2025-03-10 11:11:09,959 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\core\\challenges\\challenge_manager.py', reloading
+2025-03-10 11:11:10,060 - INFO -  * Restarting with stat
+2025-03-10 11:11:10,744 - WARNING -  * Debugger is active!
+2025-03-10 11:11:10,750 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 11:11:17,898 - INFO - 127.0.0.1 - - [10/Mar/2025 11:11:17] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 11:12:53,286 - INFO - 127.0.0.1 - - [10/Mar/2025 11:12:53] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-10 11:13:00,794 - INFO - 127.0.0.1 - - [10/Mar/2025 11:13:00] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 11:13:02,104 - INFO - 127.0.0.1 - - [10/Mar/2025 11:13:02] "GET /challenge/890 HTTP/1.1" 200 -
+2025-03-10 11:13:05,488 - INFO - 127.0.0.1 - - [10/Mar/2025 11:13:05] "[32mPOST /challenge/890/hint HTTP/1.1[0m" 302 -
+2025-03-10 11:13:05,501 - INFO - 127.0.0.1 - - [10/Mar/2025 11:13:05] "GET /challenge/890 HTTP/1.1" 200 -
+2025-03-10 11:13:06,864 - INFO - 127.0.0.1 - - [10/Mar/2025 11:13:06] "[32mPOST /challenge/890/hint HTTP/1.1[0m" 302 -
+2025-03-10 11:13:06,874 - INFO - 127.0.0.1 - - [10/Mar/2025 11:13:06] "GET /challenge/890 HTTP/1.1" 200 -
+2025-03-10 11:13:11,318 - INFO - 127.0.0.1 - - [10/Mar/2025 11:13:11] "[32mPOST /challenge/890/hint HTTP/1.1[0m" 302 -
+2025-03-10 11:13:11,330 - INFO - 127.0.0.1 - - [10/Mar/2025 11:13:11] "GET /challenge/890 HTTP/1.1" 200 -
+2025-03-10 11:43:08,312 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\app.py', reloading
+2025-03-10 11:43:08,379 - INFO -  * Restarting with stat
+2025-03-10 11:43:09,035 - WARNING -  * Debugger is active!
+2025-03-10 11:43:09,039 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 12:10:31,030 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 12:10:31,031 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 12:10:31,033 - INFO -  * Restarting with stat
+2025-03-10 12:10:31,561 - WARNING -  * Debugger is active!
+2025-03-10 12:10:31,567 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 12:10:56,188 - INFO - 127.0.0.1 - - [10/Mar/2025 12:10:56] "GET / HTTP/1.1" 200 -
+2025-03-10 12:11:01,493 - INFO - 127.0.0.1 - - [10/Mar/2025 12:11:01] "GET / HTTP/1.1" 200 -
+2025-03-10 12:11:05,765 - INFO - 127.0.0.1 - - [10/Mar/2025 12:11:05] "GET /register HTTP/1.1" 200 -
+2025-03-10 12:11:21,384 - INFO - 127.0.0.1 - - [10/Mar/2025 12:11:21] "POST /register HTTP/1.1" 200 -
+2025-03-10 12:11:30,996 - INFO - 127.0.0.1 - - [10/Mar/2025 12:11:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-10 12:11:31,011 - INFO - 127.0.0.1 - - [10/Mar/2025 12:11:31] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 12:11:36,229 - INFO - 127.0.0.1 - - [10/Mar/2025 12:11:36] "GET /admin/login HTTP/1.1" 200 -
+2025-03-10 12:11:51,679 - INFO - 127.0.0.1 - - [10/Mar/2025 12:11:51] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2025-03-10 12:11:51,704 - INFO - 127.0.0.1 - - [10/Mar/2025 12:11:51] "GET /admin HTTP/1.1" 200 -
+2025-03-10 12:12:11,778 - INFO - 127.0.0.1 - - [10/Mar/2025 12:12:11] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-10 12:12:16,646 - INFO - 127.0.0.1 - - [10/Mar/2025 12:12:16] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 12:12:19,471 - INFO - 127.0.0.1 - - [10/Mar/2025 12:12:19] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 12:12:20,259 - INFO - 127.0.0.1 - - [10/Mar/2025 12:12:20] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 12:12:20,634 - INFO - 127.0.0.1 - - [10/Mar/2025 12:12:20] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 12:12:23,005 - INFO - 127.0.0.1 - - [10/Mar/2025 12:12:23] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 12:12:23,380 - INFO - 127.0.0.1 - - [10/Mar/2025 12:12:23] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 12:12:23,843 - INFO - 127.0.0.1 - - [10/Mar/2025 12:12:23] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 12:12:24,254 - INFO - 127.0.0.1 - - [10/Mar/2025 12:12:24] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 12:12:24,595 - INFO - 127.0.0.1 - - [10/Mar/2025 12:12:24] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 12:12:25,008 - INFO - 127.0.0.1 - - [10/Mar/2025 12:12:25] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 12:12:25,435 - INFO - 127.0.0.1 - - [10/Mar/2025 12:12:25] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 12:12:25,829 - INFO - 127.0.0.1 - - [10/Mar/2025 12:12:25] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 12:12:26,224 - INFO - 127.0.0.1 - - [10/Mar/2025 12:12:26] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 12:12:26,565 - INFO - 127.0.0.1 - - [10/Mar/2025 12:12:26] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 12:12:28,415 - INFO - 127.0.0.1 - - [10/Mar/2025 12:12:28] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 12:12:28,791 - INFO - 127.0.0.1 - - [10/Mar/2025 12:12:28] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 12:12:29,170 - INFO - 127.0.0.1 - - [10/Mar/2025 12:12:29] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 12:14:35,205 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\core\\crypto\\rsa_manager.py', reloading
+2025-03-10 12:14:35,309 - INFO -  * Restarting with stat
+2025-03-10 12:14:35,871 - WARNING -  * Debugger is active!
+2025-03-10 12:14:35,876 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 12:16:01,257 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\core\\crypto\\vigenere.py', reloading
+2025-03-10 12:16:01,327 - INFO -  * Restarting with stat
+2025-03-10 12:16:01,843 - WARNING -  * Debugger is active!
+2025-03-10 12:16:01,848 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 12:17:54,320 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\core\\crypto\\challenge_layer.py', reloading
+2025-03-10 12:17:54,381 - INFO -  * Restarting with stat
+2025-03-10 13:56:16,457 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 13:56:16,458 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 13:56:16,460 - INFO -  * Restarting with stat
+2025-03-10 13:56:17,179 - WARNING -  * Debugger is active!
+2025-03-10 13:56:17,188 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 13:56:23,748 - INFO - 127.0.0.1 - - [10/Mar/2025 13:56:23] "[32mPOST /admin/create_challenge HTTP/1.1[0m" 302 -
+2025-03-10 13:56:23,777 - INFO - 127.0.0.1 - - [10/Mar/2025 13:56:23] "GET /admin/login HTTP/1.1" 200 -
+2025-03-10 13:56:23,900 - INFO - 127.0.0.1 - - [10/Mar/2025 13:56:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-10 13:56:37,462 - INFO - 127.0.0.1 - - [10/Mar/2025 13:56:37] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2025-03-10 13:56:37,482 - INFO - 127.0.0.1 - - [10/Mar/2025 13:56:37] "GET /admin HTTP/1.1" 200 -
+2025-03-10 13:56:43,800 - INFO - 127.0.0.1 - - [10/Mar/2025 13:56:43] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 13:57:04,453 - INFO - 127.0.0.1 - - [10/Mar/2025 13:57:04] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-10 13:57:07,379 - INFO - 127.0.0.1 - - [10/Mar/2025 13:57:07] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 13:57:08,240 - INFO - 127.0.0.1 - - [10/Mar/2025 13:57:08] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 13:57:08,710 - INFO - 127.0.0.1 - - [10/Mar/2025 13:57:08] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 13:57:09,000 - INFO - 127.0.0.1 - - [10/Mar/2025 13:57:09] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 13:57:09,240 - INFO - 127.0.0.1 - - [10/Mar/2025 13:57:09] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 13:57:09,480 - INFO - 127.0.0.1 - - [10/Mar/2025 13:57:09] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 13:57:17,083 - INFO - 127.0.0.1 - - [10/Mar/2025 13:57:17] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 13:57:17,524 - INFO - 127.0.0.1 - - [10/Mar/2025 13:57:17] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:02:02,753 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\app.py', reloading
+2025-03-10 14:02:02,871 - INFO -  * Restarting with stat
+2025-03-10 14:02:03,417 - WARNING -  * Debugger is active!
+2025-03-10 14:02:03,421 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 14:02:14,115 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 14:02:14,116 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 14:02:14,117 - INFO -  * Restarting with stat
+2025-03-10 14:02:14,689 - WARNING -  * Debugger is active!
+2025-03-10 14:02:14,693 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 14:02:18,276 - INFO - 127.0.0.1 - - [10/Mar/2025 14:02:18] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:02:19,033 - INFO - 127.0.0.1 - - [10/Mar/2025 14:02:19] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:02:19,238 - INFO - 127.0.0.1 - - [10/Mar/2025 14:02:19] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:02:19,405 - INFO - 127.0.0.1 - - [10/Mar/2025 14:02:19] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:02:22,622 - INFO - 127.0.0.1 - - [10/Mar/2025 14:02:22] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-10 14:02:33,424 - INFO - 127.0.0.1 - - [10/Mar/2025 14:02:33] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-10 14:02:38,773 - INFO - 127.0.0.1 - - [10/Mar/2025 14:02:38] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:02:39,309 - INFO - 127.0.0.1 - - [10/Mar/2025 14:02:39] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:02:39,496 - INFO - 127.0.0.1 - - [10/Mar/2025 14:02:39] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:02:39,679 - INFO - 127.0.0.1 - - [10/Mar/2025 14:02:39] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:02:39,830 - INFO - 127.0.0.1 - - [10/Mar/2025 14:02:39] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:02:40,197 - INFO - 127.0.0.1 - - [10/Mar/2025 14:02:40] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:02:40,390 - INFO - 127.0.0.1 - - [10/Mar/2025 14:02:40] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:02:40,954 - INFO - 127.0.0.1 - - [10/Mar/2025 14:02:40] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:02:41,141 - INFO - 127.0.0.1 - - [10/Mar/2025 14:02:41] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:02:41,822 - INFO - 127.0.0.1 - - [10/Mar/2025 14:02:41] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:02:42,043 - INFO - 127.0.0.1 - - [10/Mar/2025 14:02:42] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:02:42,232 - INFO - 127.0.0.1 - - [10/Mar/2025 14:02:42] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:02:42,432 - INFO - 127.0.0.1 - - [10/Mar/2025 14:02:42] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:05:58,545 - INFO - 127.0.0.1 - - [10/Mar/2025 14:05:58] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:05:59,176 - INFO - 127.0.0.1 - - [10/Mar/2025 14:05:59] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:05:59,377 - INFO - 127.0.0.1 - - [10/Mar/2025 14:05:59] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:05:59,542 - INFO - 127.0.0.1 - - [10/Mar/2025 14:05:59] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:05:59,779 - INFO - 127.0.0.1 - - [10/Mar/2025 14:05:59] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:06:00,013 - INFO - 127.0.0.1 - - [10/Mar/2025 14:06:00] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:06:09,291 - INFO - 127.0.0.1 - - [10/Mar/2025 14:06:09] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-10 14:06:14,204 - INFO - 127.0.0.1 - - [10/Mar/2025 14:06:14] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:06:14,614 - INFO - 127.0.0.1 - - [10/Mar/2025 14:06:14] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:06:14,821 - INFO - 127.0.0.1 - - [10/Mar/2025 14:06:14] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:06:14,979 - INFO - 127.0.0.1 - - [10/Mar/2025 14:06:14] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:23:38,633 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\app.py', reloading
+2025-03-10 14:23:38,721 - INFO -  * Restarting with stat
+2025-03-10 14:23:39,267 - WARNING -  * Debugger is active!
+2025-03-10 14:23:39,271 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 14:23:50,794 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 14:23:50,794 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 14:23:50,797 - INFO -  * Restarting with stat
+2025-03-10 14:23:51,382 - WARNING -  * Debugger is active!
+2025-03-10 14:23:51,387 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 14:24:05,458 - INFO - 127.0.0.1 - - [10/Mar/2025 14:24:05] "GET / HTTP/1.1" 200 -
+2025-03-10 14:24:09,396 - INFO - 127.0.0.1 - - [10/Mar/2025 14:24:09] "GET /admin/login HTTP/1.1" 200 -
+2025-03-10 14:24:23,333 - INFO - 127.0.0.1 - - [10/Mar/2025 14:24:23] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2025-03-10 14:24:23,347 - INFO - 127.0.0.1 - - [10/Mar/2025 14:24:23] "GET /admin HTTP/1.1" 200 -
+2025-03-10 14:24:29,229 - INFO - 127.0.0.1 - - [10/Mar/2025 14:24:29] "GET / HTTP/1.1" 200 -
+2025-03-10 14:24:32,650 - INFO - 127.0.0.1 - - [10/Mar/2025 14:24:32] "GET /register HTTP/1.1" 200 -
+2025-03-10 14:24:38,688 - INFO - 127.0.0.1 - - [10/Mar/2025 14:24:38] "POST /register HTTP/1.1" 200 -
+2025-03-10 14:24:44,706 - INFO - 127.0.0.1 - - [10/Mar/2025 14:24:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-10 14:24:44,734 - INFO - 127.0.0.1 - - [10/Mar/2025 14:24:44] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:25:00,610 - INFO - 127.0.0.1 - - [10/Mar/2025 14:25:00] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-10 14:25:04,170 - INFO - 127.0.0.1 - - [10/Mar/2025 14:25:04] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:25:04,732 - INFO - 127.0.0.1 - - [10/Mar/2025 14:25:04] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:25:05,039 - INFO - 127.0.0.1 - - [10/Mar/2025 14:25:05] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:25:05,289 - INFO - 127.0.0.1 - - [10/Mar/2025 14:25:05] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:25:05,552 - INFO - 127.0.0.1 - - [10/Mar/2025 14:25:05] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:25:05,841 - INFO - 127.0.0.1 - - [10/Mar/2025 14:25:05] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:26:17,953 - INFO - 127.0.0.1 - - [10/Mar/2025 14:26:17] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:26:18,419 - INFO - 127.0.0.1 - - [10/Mar/2025 14:26:18] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:26:18,663 - INFO - 127.0.0.1 - - [10/Mar/2025 14:26:18] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:26:18,843 - INFO - 127.0.0.1 - - [10/Mar/2025 14:26:18] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:26:19,026 - INFO - 127.0.0.1 - - [10/Mar/2025 14:26:19] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:26:19,204 - INFO - 127.0.0.1 - - [10/Mar/2025 14:26:19] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:26:19,384 - INFO - 127.0.0.1 - - [10/Mar/2025 14:26:19] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 14:26:22,632 - INFO - 127.0.0.1 - - [10/Mar/2025 14:26:22] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-10 14:32:59,611 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\app.py', reloading
+2025-03-10 14:32:59,704 - INFO -  * Restarting with stat
+2025-03-10 14:33:00,335 - WARNING -  * Debugger is active!
+2025-03-10 14:33:00,340 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 14:33:04,175 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 14:33:04,175 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 14:33:04,177 - INFO -  * Restarting with stat
+2025-03-10 14:33:04,717 - WARNING -  * Debugger is active!
+2025-03-10 14:33:04,722 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 14:35:00,440 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 14:35:00,441 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 14:35:00,442 - INFO -  * Restarting with stat
+2025-03-10 14:35:00,997 - WARNING -  * Debugger is active!
+2025-03-10 14:35:01,002 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 14:35:12,056 - INFO - 127.0.0.1 - - [10/Mar/2025 14:35:12] "GET / HTTP/1.1" 200 -
+2025-03-10 14:35:14,582 - INFO - 127.0.0.1 - - [10/Mar/2025 14:35:14] "GET /admin/login HTTP/1.1" 200 -
+2025-03-10 14:35:26,783 - INFO - 127.0.0.1 - - [10/Mar/2025 14:35:26] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2025-03-10 14:35:26,830 - INFO - 127.0.0.1 - - [10/Mar/2025 14:35:26] "[35m[1mGET /admin HTTP/1.1[0m" 500 -
+2025-03-10 14:35:27,117 - INFO - 127.0.0.1 - - [10/Mar/2025 14:35:27] "GET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-10 14:35:27,123 - INFO - 127.0.0.1 - - [10/Mar/2025 14:35:27] "GET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-10 14:35:27,195 - INFO - 127.0.0.1 - - [10/Mar/2025 14:35:27] "GET /admin?__debugger__=yes&cmd=resource&f=console.png&s=O4zhfwbFqFVBlHHR8xZw HTTP/1.1" 200 -
+2025-03-10 14:35:27,217 - INFO - 127.0.0.1 - - [10/Mar/2025 14:35:27] "GET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-10 16:43:52,053 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 16:43:52,053 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 16:43:52,055 - INFO -  * Restarting with stat
+2025-03-10 16:43:52,764 - WARNING -  * Debugger is active!
+2025-03-10 16:43:52,771 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 16:44:02,982 - INFO - 127.0.0.1 - - [10/Mar/2025 16:44:02] "GET / HTTP/1.1" 200 -
+2025-03-10 16:44:05,482 - INFO - 127.0.0.1 - - [10/Mar/2025 16:44:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-10 16:44:07,605 - INFO - 127.0.0.1 - - [10/Mar/2025 16:44:07] "GET /admin/login HTTP/1.1" 200 -
+2025-03-10 16:44:31,012 - INFO - 127.0.0.1 - - [10/Mar/2025 16:44:31] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2025-03-10 16:44:31,049 - INFO - 127.0.0.1 - - [10/Mar/2025 16:44:31] "[35m[1mGET /admin HTTP/1.1[0m" 500 -
+2025-03-10 16:44:31,250 - INFO - 127.0.0.1 - - [10/Mar/2025 16:44:31] "[36mGET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-10 16:44:31,258 - INFO - 127.0.0.1 - - [10/Mar/2025 16:44:31] "[36mGET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-10 16:44:31,332 - INFO - 127.0.0.1 - - [10/Mar/2025 16:44:31] "GET /admin?__debugger__=yes&cmd=resource&f=console.png&s=sWRfoLkTkQJa47tE9K0F HTTP/1.1" 200 -
+2025-03-10 16:44:59,267 - INFO - 127.0.0.1 - - [10/Mar/2025 16:44:59] "[35m[1mGET /admin HTTP/1.1[0m" 500 -
+2025-03-10 16:44:59,291 - INFO - 127.0.0.1 - - [10/Mar/2025 16:44:59] "[36mGET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-10 16:44:59,298 - INFO - 127.0.0.1 - - [10/Mar/2025 16:44:59] "[36mGET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-10 16:44:59,320 - INFO - 127.0.0.1 - - [10/Mar/2025 16:44:59] "[36mGET /admin?__debugger__=yes&cmd=resource&f=console.png&s=sWRfoLkTkQJa47tE9K0F HTTP/1.1[0m" 304 -
+2025-03-10 16:44:59,340 - INFO - 127.0.0.1 - - [10/Mar/2025 16:44:59] "[36mGET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-10 17:50:56,117 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 17:50:56,117 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 17:50:56,119 - INFO -  * Restarting with stat
+2025-03-10 17:50:56,668 - WARNING -  * Debugger is active!
+2025-03-10 17:50:56,674 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 17:51:16,295 - INFO - 127.0.0.1 - - [10/Mar/2025 17:51:16] "GET / HTTP/1.1" 200 -
+2025-03-10 17:51:18,176 - INFO - 127.0.0.1 - - [10/Mar/2025 17:51:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-10 17:51:19,776 - INFO - 127.0.0.1 - - [10/Mar/2025 17:51:19] "GET /admin/login HTTP/1.1" 200 -
+2025-03-10 17:51:26,476 - INFO - 127.0.0.1 - - [10/Mar/2025 17:51:26] "POST /admin/login HTTP/1.1" 200 -
+2025-03-10 17:51:43,012 - INFO - 127.0.0.1 - - [10/Mar/2025 17:51:43] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2025-03-10 17:51:43,030 - INFO - 127.0.0.1 - - [10/Mar/2025 17:51:43] "GET /admin HTTP/1.1" 200 -
+2025-03-10 17:52:00,456 - INFO - 127.0.0.1 - - [10/Mar/2025 17:52:00] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-10 17:53:14,794 - INFO - 127.0.0.1 - - [10/Mar/2025 17:53:14] "GET / HTTP/1.1" 200 -
+2025-03-10 17:53:18,532 - INFO - 127.0.0.1 - - [10/Mar/2025 17:53:18] "GET /register HTTP/1.1" 200 -
+2025-03-10 17:53:28,105 - INFO - 127.0.0.1 - - [10/Mar/2025 17:53:28] "POST /register HTTP/1.1" 200 -
+2025-03-10 17:53:35,458 - INFO - 127.0.0.1 - - [10/Mar/2025 17:53:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-10 17:53:35,486 - INFO - 127.0.0.1 - - [10/Mar/2025 17:53:35] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 17:53:37,916 - INFO - 127.0.0.1 - - [10/Mar/2025 17:53:37] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 17:53:57,819 - INFO - 127.0.0.1 - - [10/Mar/2025 17:53:57] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-10 17:54:19,415 - INFO - 127.0.0.1 - - [10/Mar/2025 17:54:19] "[35m[1mPOST /admin/create_challenge HTTP/1.1[0m" 500 -
+2025-03-10 17:54:19,710 - INFO - 127.0.0.1 - - [10/Mar/2025 17:54:19] "GET /admin/create_challenge?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-10 17:54:19,728 - INFO - 127.0.0.1 - - [10/Mar/2025 17:54:19] "GET /admin/create_challenge?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-10 17:54:19,791 - INFO - 127.0.0.1 - - [10/Mar/2025 17:54:19] "GET /admin/create_challenge?__debugger__=yes&cmd=resource&f=console.png&s=rVT2QpooxfVkuDoXZsLI HTTP/1.1" 200 -
+2025-03-10 17:54:19,811 - INFO - 127.0.0.1 - - [10/Mar/2025 17:54:19] "GET /admin/create_challenge?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-10 17:56:15,749 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\app.py', reloading
+2025-03-10 17:56:15,875 - INFO -  * Restarting with stat
+2025-03-10 17:56:16,529 - WARNING -  * Debugger is active!
+2025-03-10 17:56:16,536 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 17:56:23,267 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 17:56:23,268 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 17:56:23,270 - INFO -  * Restarting with stat
+2025-03-10 17:56:23,915 - WARNING -  * Debugger is active!
+2025-03-10 17:56:23,921 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 17:56:29,597 - INFO - 127.0.0.1 - - [10/Mar/2025 17:56:29] "[35m[1mPOST /admin/create_challenge HTTP/1.1[0m" 500 -
+2025-03-10 17:56:29,882 - INFO - 127.0.0.1 - - [10/Mar/2025 17:56:29] "[36mGET /admin/create_challenge?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-10 17:56:29,903 - INFO - 127.0.0.1 - - [10/Mar/2025 17:56:29] "[36mGET /admin/create_challenge?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-10 17:56:29,926 - INFO - 127.0.0.1 - - [10/Mar/2025 17:56:29] "GET /admin/create_challenge?__debugger__=yes&cmd=resource&f=console.png&s=0FRFoVVP0bFmznBfGmk6 HTTP/1.1" 200 -
+2025-03-10 17:56:29,945 - INFO - 127.0.0.1 - - [10/Mar/2025 17:56:29] "[36mGET /admin/create_challenge?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-10 17:58:56,332 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\core\\challenges\\challenge_manager.py', reloading
+2025-03-10 17:58:56,444 - INFO -  * Restarting with stat
+2025-03-10 17:58:57,011 - WARNING -  * Debugger is active!
+2025-03-10 17:58:57,016 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 18:09:30,169 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\core\\challenges\\challenge_manager.py', reloading
+2025-03-10 18:09:30,282 - INFO -  * Restarting with stat
+2025-03-10 18:09:30,934 - WARNING -  * Debugger is active!
+2025-03-10 18:09:30,940 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 18:14:26,097 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\app.py', reloading
+2025-03-10 18:14:26,206 - INFO -  * Restarting with stat
+2025-03-10 18:16:16,388 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-10 18:16:16,388 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 18:16:16,389 - INFO -  * Restarting with stat
+2025-03-10 18:16:16,905 - WARNING -  * Debugger is active!
+2025-03-10 18:16:16,910 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 18:16:23,433 - INFO - 127.0.0.1 - - [10/Mar/2025 18:16:23] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-10 18:16:35,989 - INFO - 127.0.0.1 - - [10/Mar/2025 18:16:35] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-10 18:17:18,744 - INFO - 127.0.0.1 - - [10/Mar/2025 18:17:18] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-10 18:22:52,743 - INFO -  * Detected change in 'C:\\Users\\admin\\Desktop\\Momento\\app.py', reloading
+2025-03-10 18:22:52,904 - INFO -  * Restarting with stat
+2025-03-10 18:22:53,684 - WARNING -  * Debugger is active!
+2025-03-10 18:22:53,688 - INFO -  * Debugger PIN: 447-593-883
+2025-03-10 18:24:01,058 - INFO - 127.0.0.1 - - [10/Mar/2025 18:24:01] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-10 18:24:15,874 - INFO - 127.0.0.1 - - [10/Mar/2025 18:24:15] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-10 18:24:22,710 - INFO - 127.0.0.1 - - [10/Mar/2025 18:24:22] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 18:24:22,999 - INFO - 127.0.0.1 - - [10/Mar/2025 18:24:22] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 18:24:25,582 - INFO - 127.0.0.1 - - [10/Mar/2025 18:24:25] "GET /challenge/4 HTTP/1.1" 200 -
+2025-03-10 18:26:59,636 - INFO - 127.0.0.1 - - [10/Mar/2025 18:26:59] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-10 18:27:11,069 - INFO - 127.0.0.1 - - [10/Mar/2025 18:27:11] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-10 18:54:02,047 - INFO - 127.0.0.1 - - [10/Mar/2025 18:54:02] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-10 18:54:16,568 - INFO - 127.0.0.1 - - [10/Mar/2025 18:54:16] "POST /admin/create_challenge HTTP/1.1" 200 -
+2025-03-10 18:54:21,963 - INFO - 127.0.0.1 - - [10/Mar/2025 18:54:21] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 18:54:22,833 - INFO - 127.0.0.1 - - [10/Mar/2025 18:54:22] "GET /challenges HTTP/1.1" 200 -
+2025-03-10 18:54:28,196 - INFO - 127.0.0.1 - - [10/Mar/2025 18:54:28] "GET /challenge/45 HTTP/1.1" 200 -
+2025-03-10 18:54:34,285 - INFO - 127.0.0.1 - - [10/Mar/2025 18:54:34] "GET /challenge/45 HTTP/1.1" 200 -

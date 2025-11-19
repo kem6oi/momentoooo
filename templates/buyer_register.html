@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buyer Registration - Momento</title>
+</head>
+<body>
+    <h1>Buyer Registration</h1>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+                <p>{{ message }}</p>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+    <form method="post">
+        <p>Complete your buyer registration:</p>
+        <!-- Add any additional fields here if needed -->
+        <button type="submit">Register as Buyer</button>
+    </form>
+    <a href="{{ url_for('hub') }}">Back to Hub</a>
+</body>
+</html>

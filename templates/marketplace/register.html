@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title mb-0">Register as a Seller</h3>
+                </div>
+                <div class="card-body">
+                    {% with messages = get_flashed_messages(with_categories=true) %}
+                        {% if messages %}
+                            {% for category, message in messages %}
+                                <div class="alert alert-{{ category }}" role="alert">
+                                    {{ message }}
+                                </div>
+                            {% endfor %}
+                        {% endif %}
+                    {% endwith %}
+
+                    <form method="POST" action="{{ url_for('marketplace.register_seller') }}">
+                        <div class="mb-3">
+                            <label for="business_name" class="form-label">Business Name</label>
+                            <input type="text" class="form-control" id="business_name" name="business_name" required>
+                            <div class="form-text">This name will be displayed to customers.</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="description" class="form-label">Business Description</label>
+                            <textarea class="form-control" id="description" name="description" rows="3"></textarea>
+                            <div class="form-text">Tell customers about your business (optional).</div>
+                        </div>
+
+                        <div class="alert alert-info" role="alert">
+                            <h5 class="alert-heading">Seller Verification Requirements</h5>
+                            <p class="mb-0">To become a verified seller and start listing products, you need to:</p>
+                            <ul class="mb-0">
+                                <li>Complete at least 5 hard difficulty challenges</li>
+                                <li>Maintain a good standing in the community</li>
+                            </ul>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary">Register as Seller</button>
+                            <a href="{{ url_for('marketplace.index') }}" class="btn btn-outline-secondary">Cancel</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 

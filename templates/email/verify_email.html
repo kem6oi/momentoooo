@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verify Your Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome to Momento!</h2>
+    <p>Thank you for registering. Please click the button below to verify your email address:</p>
+    
+    <a href="{{ verification_url }}" class="button">Verify Email Address</a>
+    
+    <p>If you did not create an account, you can safely ignore this email.</p>
+    
+    <p>If you're having trouble clicking the button, copy and paste this URL into your browser:</p>
+    <p>{{ verification_url }}</p>
+    
+    <div class="footer">
+        <p>This email was sent by Momento. Please do not reply to this email.</p>
+    </div>
+</body>
+</html>

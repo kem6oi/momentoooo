@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="card-title mb-0">Buyer Verification</h3>
+                </div>
+                <div class="card-body">
+                    {% with messages = get_flashed_messages(with_categories=true) %}
+                        {% if messages %}
+                            {% for category, message in messages %}
+                                <div class="alert alert-{{ category }}" role="alert">
+                                    {{ message }}
+                                </div>
+                            {% endfor %}
+                        {% endif %}
+                    {% endwith %}
+
+                    <div class="alert alert-info">
+                        <h5 class="alert-heading">Verification Requirements</h5>
+                        {# Use required_count variable #}
+                        <p>To become a verified buyer and start purchasing products, you need to complete at least {{ required_count | default(3) }} easy difficulty challenges.</p>
+                    </div>
+
+                    {# Calculate progress percentage safely #}
+                    {% set req_count = required_count | default(3) %} {# Default if variable missing #}
+                    {% set solved_count = solved_easy_count | default(0) %} {# Default if variable missing #}
+                    {% set progress_percent = (solved_count / req_count * 100) if req_count > 0 else 0 %}
+                    {% set progress_percent = [progress_percent, 100] | min %} {# Cap at 100% #}
+
+                    <div class="progress mb-4" role="progressbar" aria-label="Verification Progress" aria-valuenow="{{ solved_count }}" aria-valuemin="0" aria-valuemax="{{ req_count }}">
+                        {# Use correct variable names and calculated percentage #}
+                        <div class="progress-bar bg-primary" style="width: {{ progress_percent }}%;">
+                            {{ solved_count }}/{{ req_count }} Challenges Completed
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <h5>Your Buyer Profile</h5>
+                        {% if buyer %}
+                            <p><strong>Display Name:</strong> {{ buyer.display_name | default('N/A') }}</p>
+                            <p><strong>Status:</strong>
+                                {# Use correct variable names #}
+                                {% if buyer.is_verified >= req_count %}
+                                    <span class="badge bg-success">Verified Buyer</span>
+                                {% else %}
+                                    <span class="badge bg-warning">Unverified ({{ solved_count }}/{{ req_count }} challenges)</span>
+                                {% endif %}
+                            </p>
+                        {% else %}
+                            <div class="alert alert-warning">
+                                You need to register as a buyer first. <a href="{{ url_for('marketplace.buyer_register') }}">Register here</a>
+                            </div>
+                        {% endif %}
+                    </div>
+
+                    <div class="mb-4">
+                        <h5>Available Easy Challenges</h5>
+                        {# Use easy_challenges variable passed from view #}
+                        {% if easy_challenges %}
+                            <div class="list-group">
+                                {# Iterate over easy_challenges dictionary #}
+                                {% for challenge_id, challenge in easy_challenges.items() %}
+                                    {# Link to the correct view_challenge endpoint #}
+                                    {# Pass mode=buyer if needed by view_challenge #}
+                                    <a href="{{ url_for('view_challenge', challenge_id=challenge_id, mode='buyer') }}" class="list-group-item list-group-item-action
+                                        {% if challenge_id in solved_challenge_ids %} list-group-item-success {% endif %}"> {# Highlight solved #}
+                                        <div class="d-flex w-100 justify-content-between">
+                                            {# Assuming challenge dict has 'title' or use 'id' #}
+                                            <h6 class="mb-1">{{ challenge.title | default(challenge_id) }} {% if challenge_id in solved_challenge_ids %}<i class="fas fa-check-circle text-success ms-2"></i>{% endif %}</h6>
+                                            <small class="text-success">{{ challenge.difficulty | capitalize }}</small> {# Show difficulty #}
+                                        </div>
+                                        {# Use description field if available #}
+                                        <p class="mb-1">{{ (challenge.description[:100] + '...') if challenge.description and challenge.description|length > 100 else challenge.description | default('') }}</p>
+                                        <small>Points: {{ challenge.points | default('N/A') }}</small>
+                                    </a>
+                                {% else %} {# Handle case where easy_challenges might be empty #}
+                                    <div class="list-group-item">No easy challenges found matching the criteria.</div>
+                                {% endfor %}
+                            </div>
+                        {% else %}
+                            <div class="alert alert-secondary">
+                                No easy challenges available at the moment, or challenges failed to load.
+                            </div>
+                        {% endif %}
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        {# Use correct variable names #}
+                        {% if buyer and buyer.is_verified >= req_count %}
+                            <a href="{{ url_for('marketplace.view_products') }}" class="btn btn-success">
+                                <i class="fas fa-shopping-cart"></i> Browse Products
+                            </a>
+                        {% endif %}
+                        <a href="{{ url_for('marketplace.index') }}" class="btn btn-outline-secondary">Back to Marketplace</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
