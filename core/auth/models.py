@@ -23,9 +23,10 @@ class User(Base, UserMixin):
     # Relationships
     buyer_profile = relationship("Buyer", back_populates="user", uselist=False)
     seller_profile = relationship("Seller", back_populates="user", uselist=False)
-    
+
     def get_id(self):
-        return str(self.username)
+        """Flask-Login requires this to return a string representing the user ID"""
+        return str(self.id)
     
     def generate_email_token(self):
         """Generate a new email verification token"""

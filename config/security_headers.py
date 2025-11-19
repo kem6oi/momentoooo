@@ -23,14 +23,17 @@ def add_security_headers(app):
     @app.after_request
     def set_security_headers(response):
         # Content Security Policy - restricts sources of content
-        # Adjust this based on your application's needs
+        # NOTE: 'unsafe-inline' is a security risk but may be needed for some apps
+        # Consider using nonces or hashes instead of 'unsafe-inline' for production
+        # See: https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
         response.headers['Content-Security-Policy'] = (
             "default-src 'self'; "
-            "script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com; "
-            "style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com; "
+            "script-src 'self' https://cdn.jsdelivr.net https://unpkg.com https://js.stripe.com; "
+            "style-src 'self' https://cdn.jsdelivr.net https://unpkg.com; "
             "img-src 'self' data: https:; "
             "font-src 'self' https://cdn.jsdelivr.net; "
-            "connect-src 'self'; "
+            "connect-src 'self' https://api.stripe.com; "
+            "frame-src https://js.stripe.com https://hooks.stripe.com; "
             "frame-ancestors 'none'; "
             "base-uri 'self'; "
             "form-action 'self';"

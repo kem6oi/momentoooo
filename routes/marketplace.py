@@ -141,7 +141,7 @@ def seller_required(f):
             flash('Please log in first.', 'warning')
             return redirect(url_for('auth.login'))  # or whatever your login route is
 
-        seller = db_session.query(Seller).filter_by(user_id=current_user.username).first()
+        seller = db_session.query(Seller).filter_by(user_id=current_user.id).first()
         
         if not seller:
             flash('Seller profile not found. Please register as a seller first.', 'danger')
@@ -427,8 +427,7 @@ def create_product():
             if file and file.filename:
                 image_filename = save_file(file)
 
-        # ←←← THIS WAS THE BUG ←←←
-        seller = db_session.query(Seller).filter_by(user_id=current_user.username).first()
+        seller = db_session.query(Seller).filter_by(user_id=current_user.id).first()
 
         if not seller:
             flash('Seller profile not found. Please contact admin.', 'error')
@@ -498,12 +497,12 @@ def edit_product(product_id):
                 image_filename = save_file(file)
                 if not image_filename: return render_template('marketplace/edit_product.html', product=product)
                 # Delete old image
-                if product.image_filename:
+                if product.image_path:
                     try:
-                        old_image_path = os.path.join(UPLOAD_FOLDER, product.image_filename)
+                        old_image_path = os.path.join(UPLOAD_FOLDER, product.image_path)
                         if os.path.exists(old_image_path): os.remove(old_image_path)
-                    except OSError as rm_error: logger.warning(f"Could not remove old image {product.image_filename}: {rm_error}")
-                product.image_filename = image_filename
+                    except OSError as rm_error: current_app.logger.warning(f"Could not remove old image {product.image_path}: {rm_error}")
+                product.image_path = image_filename
 
         try:
             db_session.commit()
@@ -528,7 +527,7 @@ def delete_product(product_id):
          flash('Product not found or you do not have permission.', 'error')
          return redirect(url_for('marketplace.seller_products'))
 
-    image_to_delete = product.image_filename
+    image_to_delete = product.image_path
     try:
         db_session.delete(product)
         db_session.commit()

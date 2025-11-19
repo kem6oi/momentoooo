@@ -37,7 +37,7 @@ class Buyer(Base):
     __tablename__ = 'buyers'
 
     id = Column(Integer, primary_key=True)
-    user_id = Column(String(80), ForeignKey('users.username'), nullable=False, unique=True)
+    user_id = Column(Integer, ForeignKey('users.id'), nullable=False, unique=True)
     display_name = Column(String(100), nullable=False)
     stripe_customer_id = Column(String(100), unique=True)
 
@@ -78,7 +78,7 @@ class Seller(Base):
     __tablename__ = 'sellers'
 
     id = Column(Integer, primary_key=True)
-    user_id = Column(String(80), ForeignKey('users.username'), nullable=False, unique=True)
+    user_id = Column(Integer, ForeignKey('users.id'), nullable=False, unique=True)
     business_name = Column(String(100), nullable=False)
     description = Column(String(500))
 
